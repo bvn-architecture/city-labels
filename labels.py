@@ -58,24 +58,27 @@ cities.columns
 #%%
 by_country = cities.groupby("country")
 #%%
-def check_this_city_for_inclusion(x, label_data, country_exclusion_list=[        "Korea, North"    ]):
-    if  getApproximateArialStringWidth(x.country) < 10:
+def check_this_city_for_inclusion(
+    x, label_data, country_exclusion_list=["Korea, North"]
+):
+    if getApproximateArialStringWidth(x.country) < 10:
         print(f"too long: {x.country}")
         return False
     elif getApproximateArialStringWidth(x.city) < 10:
         print(f"too long: {x.city}")
         return False
-    elif x.city    not in [        d["city"] for d in label_data    ]:
+    elif x.city not in [d["city"] for d in label_data]:
         #  computationaly ineficient, but saves managing two arrays
         print(f"already taken: {x.city}, {x.country}")
         return False
-    elif x.country
-    not in country_exclusion_list:
+    elif x.country in country_exclusion_list:
         # really just a demo of how to exclude a country, sorry Mr Kim
         print(f"{x.country} is on the country exclusion list")
         return False
     else:
         return True
+
+
 #%%
 
 """
