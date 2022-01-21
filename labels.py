@@ -95,19 +95,18 @@ pica_width_cutoff = math.floor(getApproximateArialStringWidth("M" * 13))
 while len(label_data) < 700:
     for country, group in by_country:
         try:
-            print(country, group.head(2))
-            x = group.iloc[itteration]
-            if check_this_city_for_inclusion(x, label_data):
-
-                d = {
-                    "country": x.country,
-                    "city": x.city,
-                    "lat": x.lat,
-                    "lon": x.lng,
-                    "geometry": Point(x.lng, x.lat),
-                    "map_file": f"city_maps/{row.country}_{row.city}.png",
-                }
-                label_data.append(d)
+            city_row = group.iloc[itteration]
+            if check_this_city_for_inclusion(city_row, label_data):
+                label_data.append(
+                    {
+                        "country": city_row.country,
+                        "city": city_row.city,
+                        "lat": city_row.lat,
+                        "lon": city_row.lng,
+                        "geometry": Point(city_row.lng, city_row.lat),
+                        "map_file": f"city_maps/{city_row.country}_{city_row.city}.png",
+                    }
+                )
         except IndexError as e:
             print(f"by {itteration}, {country} is out of cities")
     itteration += 1
