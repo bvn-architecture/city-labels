@@ -84,7 +84,9 @@ def check_this_city_for_inclusion(
 """
 To make sure that the names will fit in the space, at the given font size etc.,
 if the space can fit 13 M chars across, then getApproximateArialStringWidth("M"*13) gives 10.53,
-so the space is 10 picas wide, and we can exclude wider names
+so the space is 10 picas wide, and we can exclude wider names.
+
+TODO: calculate specific image sizes for the maps to fit on the sickers, and tight layout
 """
 world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
 world = world[(world.name != "Antarctica") & (world.name != "Fr. S. Antarctic Lands")]
