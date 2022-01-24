@@ -141,6 +141,11 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
     return label_gdf
 
 
+# %%
+def getImage(path, zoom=1):
+    return OffsetImage(plt.imread(path), zoom=zoom)
+
+
 #%%
 label_gdf = make_labels(cities)
 
@@ -151,29 +156,10 @@ label_gdf.sample(30)
 world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
 world = world[(world.name != "Antarctica") & (world.name != "Fr. S. Antarctic Lands")]
 
-world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
-world = world[(world.name != "Antarctica") & (world.name != "Fr. S. Antarctic Lands")]
 ax = world.plot(color="silver")
 ax.set_axis_off()
 
-# %%
 
-
-def getImage(path, zoom=1):
-    return OffsetImage(plt.imread(path), zoom=zoom)
-
-
-paths = ["markers\cross.png"]
-
-x = [0, 1, 2, 3, 4]
-y = [0, 1, 2, 3, 4]
-
-fig, ax = plt.subplots()
-ax.scatter(x, y)
-
-for x0, y0, path in zip(x, y, paths):
-    ab = AnnotationBbox(getImage(path, zoom=0.2), (x0, y0), frameon=False)
-    ax.add_artist(ab)
 #%%
 use_mpl_marker = False
 use_img_marker = True
