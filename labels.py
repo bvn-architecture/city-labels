@@ -166,12 +166,13 @@ use_img_marker = True
 plot_width_mm = 62
 plot_height_mm = 28
 MM2IN = 25.4
+colour = "magenta"
 
 for i, row in label_gdf.iterrows():
     # if i < 5:
     if True:
         ax = world.boundary.plot(
-            color="white",
+            color=colour,
             linewidth=0.3,
         )
         fig = matplotlib.pyplot.gcf()
@@ -181,7 +182,7 @@ for i, row in label_gdf.iterrows():
         if use_mpl_marker:
             gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
                 marker="+",
-                color="white",
+                color=colour,
                 linewidth=1,
                 markersize=1000,  # 500000 for world spanning markers
                 ax=ax,
