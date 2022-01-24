@@ -1,7 +1,12 @@
 # City Labels
-
+<style>
+  .maps{background:pink;}
+</style>
+  
+<div class="maps">
 ![A world map with a marker that points to Oran in Algeria](city_maps/Algeria_Oran.png)
-
+</div>
+  
 A way to generate a lot of unique, but memorable labels
 
 ## Installing
