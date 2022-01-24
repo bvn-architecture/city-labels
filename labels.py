@@ -12,6 +12,7 @@ import fiona
 import geopandas as gp
 import matplotlib
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 import numpy as np
 import pandas as pd
@@ -157,23 +158,57 @@ ax = world.plot(color="silver")
 ax.set_axis_off()
 
 # %%
+
+
+def getImage(path, zoom=1):
+    return OffsetImage(plt.imread(path), zoom=zoom)
+
+
+paths = ["markers\cross.png"]
+
+x = [0, 1, 2, 3, 4]
+y = [0, 1, 2, 3, 4]
+
+fig, ax = plt.subplots()
+ax.scatter(x, y)
+
+for x0, y0, path in zip(x, y, paths):
+    ab = AnnotationBbox(getImage(path, zoom=0.2), (x0, y0), frameon=False)
+    ax.add_artist(ab)
+#%%
+use_mpl_marker = False
+use_img_marker = True
+plot_width_mm = 62
+plot_height_mm = 28
+MM2IN = 25.4
+
 for i, row in label_gdf.iterrows():
-    # if True:
-    if i < 5:
+    # if i < 5:
+    if True:
         ax = world.boundary.plot(
             color="white",
-            linewidth=1,
+            linewidth=0.3,
         )
+        fig = matplotlib.pyplot.gcf()
+        fig.set_size_inches(plot_width_mm / MM2IN, plot_height_mm / MM2IN)
         ax.set_axis_off()
         d = gp.GeoDataFrame(row)
-        gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
-            marker="+",
-            color="white",
-            linewidth=2,
-            markersize=1000,  # 500000 for world spanning markers
-            ax=ax,
-        )
+        if use_mpl_marker:
+            gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
+                marker="+",
+                color="white",
+                linewidth=1,
+                markersize=1000,  # 500000 for world spanning markers
+                ax=ax,
+            )
+        if use_img_marker:
+            ab = AnnotationBbox(
+                getImage("markers/cross.png", zoom=0.11),
+                (row.geometry.x, row.geometry.y),
+                frameon=False,
+            )
+            ax.add_artist(ab)
 
-        plt.savefig(row.map_file, bbox_inches="tight")
+        plt.savefig(row.map_file, bbox_inches="tight", dpi=300)
 
 # %%
