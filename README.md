@@ -1,13 +1,16 @@
 # City Labels
-<style>
-  .maps{background:pink;}
-</style>
   
-<div class="maps">
 ![A world map with a marker that points to Oran in Algeria](city_maps/Algeria_Oran.png)
-</div>
-  
-A way to generate a lot of unique, but memorable labels
+![A world map with a marker that points to Antwerp in Belgium](city_maps\Belgium_Antwerp.png)
+
+
+A way to generate a lot of unique, but memorable labels. The cities are unique, the countries are just for context.
+
+You can either use a `png` marker or a matplotlib marker. 
+
+I've tested it up to 7000 labels, it seems pretty quick.
+
+You'll still need to do a merge in something like indesign to make sheets ready to print.
 
 ## Installing
 
