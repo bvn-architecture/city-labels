@@ -99,14 +99,14 @@ def this_city_should_be_included(
     return False, label_data
 
 
-def make_labels(cities: pd.DataFrame) -> gp.GeoDataFrame:
+def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoDataFrame:
     by_country = cities.groupby("country")
 
     exhausted_countries_list = []
     label_data = []
     itteration = 0
     pica_width_cutoff = math.floor(getApproximateArialStringWidth("M" * 13))
-    while len(label_data) < 7000:
+    while len(label_data) < number_of_labels:
         for country, group in by_country:
             try:
                 city_row = group.iloc[itteration]
@@ -156,21 +156,24 @@ world = world[(world.name != "Antarctica") & (world.name != "Fr. S. Antarctic La
 ax = world.plot(color="silver")
 ax.set_axis_off()
 
-label_gdf.plot(marker="+", color="k", markersize=50, ax=ax)
-plt.savefig("world.png")
-
 # %%
 for i, row in label_gdf.iterrows():
-    if True:  # i < 5:
-        ax = world.plot(color="silver")
+    # if True:
+    if i < 5:
+        ax = world.boundary.plot(
+            color="white",
+            linewidth=1,
+        )
         ax.set_axis_off()
         d = gp.GeoDataFrame(row)
-        # d.plot(marker="+", color="k", markersize=50, ax=ax)
         gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
-            marker="+", color="k", markersize=50, ax=ax
+            marker="+",
+            color="white",
+            linewidth=2,
+            markersize=1000,  # 500000 for world spanning markers
+            ax=ax,
         )
-        # plt.title(f"{row.country}, {row.city}")
-        plt.tight_layout()
-        plt.savefig(row.map_file)
+
+        plt.savefig(row.map_file, bbox_inches="tight")
 
 # %%
