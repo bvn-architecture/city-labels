@@ -147,6 +147,34 @@ def getImage(path, zoom=1):
 
 
 #%%
+def marker_is_behind_text(ax, row, fig, text_object, draw_box=False):
+    transf = ax.transData.inverted()
+    bb = text_object.get_window_extent(renderer=fig.canvas.renderer)
+    bbxy = bb.transformed(transf)
+
+    if draw_box:
+        from matplotlib.patches import Rectangle
+
+        width = bbxy.x1 - bbxy.x0
+        height = bbxy.y1 - bbxy.y0
+        plt.gca().add_patch(
+            Rectangle(
+                (bbxy.x0, bbxy.y0),
+                width,
+                height,
+                linewidth=1,
+                edgecolor="r",
+                facecolor="none",
+            )
+        )
+
+    mx = row.geometry.x
+    my = row.geometry.y
+    crossing = (bbxy.x0 < mx < bb.x1) and (bbxy.y0 < my < bb.y1)
+    return crossing
+
+
+#%%
 label_gdf = make_labels(cities)
 
 label_gdf.sample(30)
@@ -167,10 +195,11 @@ plot_width_mm = 62
 plot_height_mm = 28
 MM2IN = 25.4
 colour = "magenta"
+add_text = True
 
 for i, row in label_gdf.iterrows():
-    # if i < 5:
-    if True:
+    # if True:
+    if i < 1 or row.country == "Tonga":
         ax = world.boundary.plot(
             color=colour,
             linewidth=0.3,
@@ -195,6 +224,32 @@ for i, row in label_gdf.iterrows():
             )
             ax.add_artist(ab)
 
+        if add_text:
+            ci = plt.text(
+                0,
+                0.15,
+                row.city,
+                fontsize=12,
+                color=colour,
+                transform=ax.transAxes,
+            )
+            co = plt.text(
+                0,
+                0.005,
+                row.country,
+                fontsize=8,
+                color=colour,
+                transform=ax.transAxes,
+            )
+            crossing_city = marker_is_behind_text(ax, row, fig, ci)
+            crossing_country = marker_is_behind_text(ax, row, fig, co)
+
+            if crossing_city or crossing_country:
+                print(f"{row.country} {row.city} is behind the text")
+                # TODO: drop this from the label data row if we care about crossings
+
         plt.savefig(row.map_file, bbox_inches="tight", dpi=300)
 
+
 # %%
+# TODO: export the label data to an excel file or a csv (check which)
