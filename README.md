@@ -1,6 +1,10 @@
-# city-labels
-A way to generate unique, but memorable labels
+# City Labels
 
+![A world map with a marker that points to Oran in Algeria](city_maps/Algeria_Oran.png)
+
+A way to generate a lot of unique, but memorable labels
+
+## Installing
 
 If you're on windows, you'll need to do:
 
