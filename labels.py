@@ -12,11 +12,10 @@ import fiona
 import geopandas as gp
 import matplotlib
 import matplotlib.pyplot as plt
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-
 import numpy as np
 import pandas as pd
 import shapely
+from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 from shapely.geometry import Point
 
 #%%
