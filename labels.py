@@ -300,6 +300,16 @@ for i, row in label_gdf.iterrows():
             if crossing_city or crossing_country:
                 print(f"{row.country} {row.city} is behind the text")
                 skipped_cities.append(row)
+                ## Uncomment this to see the cities that didn't make the cut
+                # ci, co = draw_text(ax, ink_colour, row, 1)
+                # marker_is_behind_text(ax, row, fig, ci, draw_box=True)
+                # marker_is_behind_text(ax, row, fig, co, draw_box=True)
+                # plt.savefig(
+                #     row.map_file.replace("city_maps", "crossing_maps"),
+                #     bbox_inches="tight",
+                #     dpi=1200,
+                #     transparent=True,
+                # )
             else:
                 plt.savefig(
                     row.map_file, bbox_inches="tight", dpi=1200, transparent=True
