@@ -161,7 +161,7 @@ def marker_is_behind_text(ax, row, fig, text_object, draw_box=False):
 
     mx = row.geometry.x
     my = row.geometry.y
-    crossing = (bbxy.x0 < mx < bb.x1) and (bbxy.y0 < my < bb.y1)
+    crossing = (bbxy.x0 < mx < bbxy.x1) and (bbxy.y0 < my < bbxy.y1)
 
     if draw_box:
         from matplotlib.patches import Rectangle
