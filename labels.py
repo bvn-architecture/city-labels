@@ -201,6 +201,7 @@ ax = world.plot(color="silver")
 ax.set_axis_off()
 
 
+#%%
 def place_anti_bounce_markers(ax, dist=0.2):
     # set some markers far out of the print area so that INDD doesn't bounce when it's placing the image file
     plt.text(-dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
@@ -253,8 +254,9 @@ for i, row in label_gdf.iterrows():
         # if (
         #     i < 1
         #     # or row.country == "Tonga"
-        #     # or row.country == "Brazil"
-        #     or row.country == "Australia"
+        #     or row.country == "Brazil"
+        #     # or row.country == "Australia"
+        #     # or row.country == "Bahamas"
         # ):
         try:
             ax = world.boundary.plot(
