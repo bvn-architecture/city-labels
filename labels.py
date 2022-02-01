@@ -201,6 +201,12 @@ ax = world.plot(color="silver")
 ax.set_axis_off()
 
 
+def place_anti_bounce_markers(ax, dist=0.2):
+    # set some markers far out of the print area so that INDD doesn't bounce when it's placing the image file
+    plt.text(-dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(-dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(1 + dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(1 + dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
 #%%
 use_mpl_marker = False
 use_img_marker = True
@@ -212,15 +218,6 @@ paper_colour = "magenta"
 add_text = False
 data_about_labels_made = []
 skipped_cities = []
-
-
-def place_anti_bounce_markers(ax, dist=0.2):
-    # set some markers far out of the print area so that INDD doesn't bounce when it's placing the image file
-    plt.text(-dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
-    plt.text(-dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
-    plt.text(1 + dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
-    plt.text(1 + dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
-
 
 for i, row in label_gdf.iterrows():
     if True:
