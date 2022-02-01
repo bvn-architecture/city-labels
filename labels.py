@@ -4,6 +4,7 @@ https://simplemaps.com/data/world-cities
 https://stackoverflow.com/questions/16007743/roughly-approximate-the-width-of-a-string-of-text-in-python/16008023#16008023
 """
 #%%
+from itertools import count
 import math
 import os
 import string
@@ -17,6 +18,12 @@ import pandas as pd
 import shapely
 from matplotlib.offsetbox import AnnotationBbox, OffsetImage
 from shapely.geometry import Point
+
+#%% There's something strange happening inside geopandas, this silences the warning
+import warnings
+from shapely.errors import ShapelyDeprecationWarning
+
+warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
 
 #%%
 cities = pd.read_excel("worldcities.xlsx")
@@ -99,7 +106,7 @@ def this_city_should_be_included(
     return False, label_data
 
 
-def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoDataFrame:
+def make_labels(cities: pd.DataFrame, number_of_labels: int = 2000) -> gp.GeoDataFrame:
     by_country = cities.groupby("country")
 
     exhausted_countries_list = []
@@ -121,7 +128,7 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
                             "lat": city_row.lat,
                             "lon": city_row.lng,
                             "geometry": Point(city_row.lng, city_row.lat),
-                            "map_file": f"city_maps/{city_row.country}_{city_row.city}.png",
+                            "map_file": f"city_maps/{city_row.country}_{city_row.city}.svg",
                         }
                     )
             except IndexError as e:
@@ -129,7 +136,7 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
                     pass
                 else:
                     print(
-                        f"by itteration {itteration}, "
+                        f"by itteration {itteration+1}, "
                         f"with {len(label_data)} cities on the list, "
                         f"{country} is out of cities"
                     )
@@ -152,8 +159,17 @@ def marker_is_behind_text(ax, row, fig, text_object, draw_box=False):
     bb = text_object.get_window_extent(renderer=fig.canvas.renderer)
     bbxy = bb.transformed(transf)
 
+    mx = row.geometry.x
+    my = row.geometry.y
+    crossing = (bbxy.x0 < mx < bb.x1) and (bbxy.y0 < my < bb.y1)
+
     if draw_box:
         from matplotlib.patches import Rectangle
+
+        if crossing:
+            colour = "red"
+        else:
+            colour = "green"
 
         width = bbxy.x1 - bbxy.x0
         height = bbxy.y1 - bbxy.y0
@@ -163,14 +179,11 @@ def marker_is_behind_text(ax, row, fig, text_object, draw_box=False):
                 width,
                 height,
                 linewidth=1,
-                edgecolor="r",
+                edgecolor=colour,
                 facecolor="none",
             )
         )
 
-    mx = row.geometry.x
-    my = row.geometry.y
-    crossing = (bbxy.x0 < mx < bb.x1) and (bbxy.y0 < my < bb.y1)
     return crossing
 
 
@@ -194,62 +207,118 @@ use_img_marker = True
 plot_width_mm = 62
 plot_height_mm = 28
 MM2IN = 25.4
-colour = "magenta"
-add_text = True
+ink_colour = "black"
+paper_colour = "magenta"
+add_text = False
+data_about_labels_made = []
+skipped_cities = []
+
+
+def place_anti_bounce_markers(ax, dist=0.2):
+    # set some markers far out of the print area so that INDD doesn't bounce when it's placing the image file
+    plt.text(-dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(-dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(1 + dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
+    plt.text(1 + dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
+
 
 for i, row in label_gdf.iterrows():
-    # if True:
-    if i < 1 or row.country == "Tonga":
-        ax = world.boundary.plot(
-            color=colour,
-            linewidth=0.3,
-        )
-        fig = matplotlib.pyplot.gcf()
-        fig.set_size_inches(plot_width_mm / MM2IN, plot_height_mm / MM2IN)
-        ax.set_axis_off()
-        d = gp.GeoDataFrame(row)
-        if use_mpl_marker:
-            gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
-                marker="+",
-                color=colour,
-                linewidth=1,
-                markersize=1000,  # 500000 for world spanning markers
-                ax=ax,
+    if True:
+        # if (
+        #     i < 1
+        #     # or row.country == "Tonga"
+        #     # or row.country == "Brazil"
+        #     or row.country == "Australia"
+        # ):
+        try:
+            ax = world.boundary.plot(
+                color=ink_colour,
+                linewidth=0.3,
             )
-        if use_img_marker:
-            ab = AnnotationBbox(
-                getImage("markers/cross.png", zoom=0.11),
-                (row.geometry.x, row.geometry.y),
-                frameon=False,
-            )
-            ax.add_artist(ab)
+            fig = matplotlib.pyplot.gcf()
+            # fig.set_dpi(600)
+            fig.set_size_inches(plot_width_mm / MM2IN, plot_height_mm / MM2IN)
+            ax.set_axis_off()
+            # Don't set the background colour here as it converts to \
+            # RGB, therefore won't match process magenta
+            # fig.patch.set_facecolor(paper_colour)
+            d = gp.GeoDataFrame(row)
+            if use_mpl_marker:
+                gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
+                    marker="+",
+                    color=ink_colour,
+                    linewidth=1,
+                    markersize=1000,  # 500000 for world spanning markers
+                    ax=ax,
+                )
+            if use_img_marker:
+                ab = AnnotationBbox(
+                    getImage("markers/cross.png", zoom=0.11),
+                    (row.geometry.x, row.geometry.y),
+                    frameon=False,
+                )
+                ax.add_artist(ab)
 
-        if add_text:
+            place_anti_bounce_markers(ax)
+
+            if add_text:
+                alpha = 1
+            else:
+                alpha = 0
             ci = plt.text(
-                0,
-                0.15,
+                0.02,
+                0.04,
                 row.city,
-                fontsize=12,
-                color=colour,
+                fontsize=10,
+                color=ink_colour,
+                alpha=alpha,
                 transform=ax.transAxes,
             )
+            if row.city == row.country:
+                country = ""
+            else:
+                country = row.country
             co = plt.text(
-                0,
-                0.005,
-                row.country,
-                fontsize=8,
-                color=colour,
+                0.02,
+                -0.11,
+                country,
+                fontsize=7,
+                color=ink_colour,
+                alpha=alpha,
                 transform=ax.transAxes,
             )
-            crossing_city = marker_is_behind_text(ax, row, fig, ci)
-            crossing_country = marker_is_behind_text(ax, row, fig, co)
+            crossing_city = marker_is_behind_text(ax, row, fig, ci)  # , draw_box=True)
+            crossing_country = marker_is_behind_text(
+                ax, row, fig, co
+            )  # , draw_box=True)
 
             if crossing_city or crossing_country:
                 print(f"{row.country} {row.city} is behind the text")
-                # TODO: drop this from the label data row if we care about crossings
+                skipped_cities.append(row)
+            else:
+                plt.savefig(
+                    row.map_file, bbox_inches="tight", dpi=300, transparent=True
+                )
+                img_path = f"C:/Users/bdoherty/city-labels/{row.map_file}".replace(
+                    "/", "\\"
+                )
+                data_about_labels_made.append(
+                    {
+                        "country": row.country,
+                        "city": row.city,
+                        "@platform_path": img_path,
+                        "platform_path_check": img_path,
+                    }
+                )
+            plt.close(fig)
+        except FileNotFoundError as fe:
+            print(fe)
+            # maybe a name with a slash in it, e.g. https://en.wikipedia.org/wiki/Biel/Bienne
 
-        plt.savefig(row.map_file, bbox_inches="tight", dpi=300)
-
-
+print("saving the CSV")
+pd.DataFrame(data_about_labels_made).to_csv(
+    "label_data.csv", index=False
+)  # , encoding="utf-16")
+print("saved the CSV")
 # %%
 # TODO: export the label data to an excel file or a csv (check which)
