@@ -207,6 +207,35 @@ def place_anti_bounce_markers(ax, dist=0.2):
     plt.text(-dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
     plt.text(1 + dist, 1 + dist, "|", fontsize=2, transform=ax.transAxes)
     plt.text(1 + dist, -dist * 1.5, "|", fontsize=2, transform=ax.transAxes)
+
+
+def draw_text(ax, ink_colour, row, alpha):
+    ci = plt.text(
+        0.02,
+        0.04,
+        row.city,
+        fontsize=10,
+        color=ink_colour,
+        alpha=alpha,
+        transform=ax.transAxes,
+    )
+    if row.city == row.country:
+        country = ""
+    else:
+        country = row.country
+    co = plt.text(
+        0.02,
+        -0.11,
+        country,
+        fontsize=7,
+        color=ink_colour,
+        alpha=alpha,
+        transform=ax.transAxes,
+    )
+
+    return ci, co
+
+
 #%%
 use_mpl_marker = False
 use_img_marker = True
@@ -262,28 +291,7 @@ for i, row in label_gdf.iterrows():
                 alpha = 1
             else:
                 alpha = 0
-            ci = plt.text(
-                0.02,
-                0.04,
-                row.city,
-                fontsize=10,
-                color=ink_colour,
-                alpha=alpha,
-                transform=ax.transAxes,
-            )
-            if row.city == row.country:
-                country = ""
-            else:
-                country = row.country
-            co = plt.text(
-                0.02,
-                -0.11,
-                country,
-                fontsize=7,
-                color=ink_colour,
-                alpha=alpha,
-                transform=ax.transAxes,
-            )
+            ci, co = draw_text(ax, ink_colour, row, alpha)
             crossing_city = marker_is_behind_text(ax, row, fig, ci)  # , draw_box=True)
             crossing_country = marker_is_behind_text(
                 ax, row, fig, co
