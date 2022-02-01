@@ -302,7 +302,7 @@ for i, row in label_gdf.iterrows():
                 skipped_cities.append(row)
             else:
                 plt.savefig(
-                    row.map_file, bbox_inches="tight", dpi=300, transparent=True
+                    row.map_file, bbox_inches="tight", dpi=1200, transparent=True
                 )
                 img_path = f"C:/Users/bdoherty/OneDrive - BVN/General/labeling/city-labels/{row.map_file}".replace(
                     "/", "\\"
