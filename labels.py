@@ -106,7 +106,7 @@ def this_city_should_be_included(
     return False, label_data
 
 
-def make_labels(cities: pd.DataFrame, number_of_labels: int = 2000) -> gp.GeoDataFrame:
+def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoDataFrame:
     by_country = cities.groupby("country")
 
     exhausted_countries_list = []
@@ -336,6 +336,6 @@ print("saving the CSV")
 pd.DataFrame(data_about_labels_made).to_csv(
     "label_data.csv", index=False
 )  # , encoding="utf-16")
-print("saved the CSV")
+print("saved the CSV, remember to resave it with Western (Windows 1252) encoding")
 # %%
 # TODO: export the label data to an excel file or a csv (check which)
