@@ -1,8 +1,8 @@
 # City Labels
 
-| | |
+|Vancouver, Canada |Lagos, Nigeria |
 |---|---|  
-|![A world map with a marker that points to Oran in Algeria](city_maps/Algeria_Oran.png)|![A world map with a marker that points to Antwerp in Belgium](city_maps/Belgium_Antwerp.png)|
+|![A world map with a marker that points to Vancouver in Canada](Canada_Vancouver.svg)|![A world map with a marker that points to Lagos in Nigeria](Nigeria_Lagos.svg)|
 
 
 A way to generate a lot of unique, but memorable labels. The cities are unique, the countries are just for context.
@@ -19,7 +19,7 @@ These are coloured in magenta because that's what the printer takes as white whe
 
 ## Installing
 
-If you're on windows, you'll need to do:
+If you're on windows, you'll need to do the following to install geopandas:
 
 ```
 pip install wheel
@@ -35,4 +35,4 @@ pipwin install rtree
 pipwin install descartes
 pipwin install geopandas
 ```
-The requirements.txt is pointing to things on my laptop, which sucks
+The requirements.txt is pointing to packages on my laptop, which sucks
