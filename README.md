@@ -8,16 +8,23 @@ A way to generate a lot of unique, but memorable labels. The cities are unique, 
 |---|---|  
 |![A world map with a marker that points to Vancouver in Canada](Canada_Vancouver.svg)|![A world map with a marker that points to Lagos in Nigeria](Nigeria_Lagos.svg)|
 
-
-You can either use a `png` marker or a MatPlotLib marker. 
+- You can either use a `png` marker or a MatPlotLib marker. 
+- You can chose to add text or not
+- You can exclude places on a few different criteria
+    - If a country is on an exclusion list
+    - If the text includes certain characters
+    - If the city is behind the text that labels it
 
 I've tested it up to 7000 labels, it seems pretty quick.
 
-You'll still need to do a merge in something like InDesign to make sheets ready to print.
-
-These are coloured in magenta because that's what the printer takes as white when they print white onto a clear sticker. You can change that colour in the code. 
+You might still need to do a merge in something like InDesign to make sheets ready to print.
 
 ## Installing
+
+```
+python -m venv label-env
+label-env\Scripts\activate.bat
+```
 
 If you're on windows, you'll need to do the following to install geopandas:
 
@@ -36,3 +43,9 @@ pipwin install descartes
 pipwin install geopandas
 ```
 The requirements.txt is pointing to packages on my laptop, which sucks
+
+Then finally:
+
+```
+pip install -r requirements.txt
+```
