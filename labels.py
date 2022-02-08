@@ -143,9 +143,52 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
                     exhausted_countries_list.append(country)
         itteration += 1
 
+    label_data.append(
+        make_specific_place(
+            # For Lulu
+            lat=45.81477,
+            lon=9.07528,
+            country="Italy",
+            city="Como",
+        )
+    )
+    label_data.append(
+        make_specific_place(
+            # for Ben
+            lat=51.12547,
+            lon=1.08836,
+            country="United Kingdom",
+            city="Lyminge",
+        )
+    )
     label_df = pd.DataFrame(label_data)
     label_gdf = gp.GeoDataFrame(label_df)
     return label_gdf
+
+
+def make_specific_place(lat=6.9, lon=6.9, country="Nigeria", city="Afa"):
+    """Make a data dict to add to the list of places for labels to be made for.
+
+    There is no option to add an ascii name for teh filename, so let me know if
+    you need one. See above for what I mean.
+
+    Args:
+        lat (float, optional): Latitude . Defaults to 6.9.
+        lon (float, optional): Longitude. Defaults to 6.9.
+        country (str, optional): Name of country. Defaults to "Nigeria".
+        city (str, optional): Name of place. Defaults to "Afa".
+
+    Returns:
+        dict: a dictionary ready to put into the dataframe
+    """
+    return {
+        "country": country,
+        "city": city,
+        "lat": lat,
+        "lon": lon,
+        "geometry": Point(lon, lat),
+        "map_file": f"city_maps/{country}_{city}.svg",
+    }
 
 
 # %%
