@@ -71,6 +71,7 @@ def this_city_should_be_included(
     label_data: list[dict],
     max_pica_width: float = 10.01,
     country_exclusion_list: list[str] = ["Korea, North"],
+    exclude_these_chars="āĀōŌī",  # add to this list as problems come up. That this exists at all should be very shameful to Adobe!
     verbose: bool = False,
 ) -> bool:
     """Based on some criteria, decide if this city should be added to the output dataset.
@@ -101,6 +102,13 @@ def this_city_should_be_included(
         # really just a demo of how to exclude a country, sorry Mr Kim
         if verbose:
             print(f"{x.country} is on the country exclusion list")
+    elif any([c in x.country for c in exclude_these_chars]) or any(
+        [c in x.city for c in exclude_these_chars]
+    ):
+        if verbose:
+            print(
+                f"{x.city}, {x.country} has a banned character in it ({exclude_these_chars})"
+            )
     else:
         return True, label_data
     return False, label_data
@@ -118,7 +126,9 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
             try:
                 city_row = group.iloc[itteration]
                 include, label_data = this_city_should_be_included(
-                    city_row, label_data, max_pica_width=pica_width_cutoff
+                    city_row,
+                    label_data,
+                    max_pica_width=pica_width_cutoff,
                 )
                 if include:
                     label_data.append(
@@ -128,7 +138,7 @@ def make_labels(cities: pd.DataFrame, number_of_labels: int = 700) -> gp.GeoData
                             "lat": city_row.lat,
                             "lon": city_row.lng,
                             "geometry": Point(city_row.lng, city_row.lat),
-                            "map_file": f"city_maps/{city_row.country}_{city_row.city}.svg",
+                            "map_file": f"city_maps/{city_row.country}_{city_row.city_ascii}.svg",
                         }
                     )
             except IndexError as e:
@@ -267,6 +277,7 @@ def draw_text(ax, ink_colour, row, alpha):
         country = ""
     else:
         country = row.country
+
     co = plt.text(
         0.02,
         -0.11,
@@ -281,13 +292,14 @@ def draw_text(ax, ink_colour, row, alpha):
 
 
 #%%
-use_mpl_marker = False
-use_img_marker = True
+use_mpl_marker = True
+use_img_marker = False
 plot_width_mm = 62
 plot_height_mm = 28
 MM2IN = 25.4
 ink_colour = "black"
 paper_colour = "magenta"
+dot_colour = "#e0f532"  # (224, 245, 50, 1) #BVN lime
 add_text = False
 data_about_labels_made = []
 skipped_cities = []
@@ -296,10 +308,10 @@ for i, row in label_gdf.iterrows():
     if True:
         # if (
         #     i < 1
-        #     # or row.country == "Tonga"
+        #     or row.country == "Tonga"
         #     or row.country == "Brazil"
-        #     # or row.country == "Australia"
-        #     # or row.country == "Bahamas"
+        #     or row.country == "Australia"
+        #     or row.country == "Bahamas"
         # ):
         try:
             ax = world.boundary.plot(
@@ -315,13 +327,17 @@ for i, row in label_gdf.iterrows():
             # fig.patch.set_facecolor(paper_colour)
             d = gp.GeoDataFrame(row)
             if use_mpl_marker:
+                # Makes a gdf with only one thing in it
                 gp.GeoDataFrame({"geometry": row.geometry}, index=[0]).plot(
-                    marker="+",
-                    color=ink_colour,
+                    marker="x",
+                    color=dot_colour,
                     linewidth=1,
-                    markersize=1000,  # 500000 for world spanning markers
+                    markersize=20,
                     ax=ax,
+                    zorder=2.5,
+                    edgecolor=None,
                 )
+
             if use_img_marker:
                 ab = AnnotationBbox(
                     getImage("markers/cross.png", zoom=0.11),
@@ -375,10 +391,11 @@ for i, row in label_gdf.iterrows():
             print(fe)
             # maybe a name with a slash in it, e.g. https://en.wikipedia.org/wiki/Biel/Bienne
 
+#%%
 print("saving the CSV")
 pd.DataFrame(data_about_labels_made).to_csv(
-    "label_data.csv", index=False
-)  # , encoding="utf-16")
+    "label_data.csv", index=False, encoding="utf-8"
+)
 print("saved the CSV, remember to resave it with Western (Windows 1252) encoding")
 # %%
 # TODO: export the label data to an excel file or a csv (check which)
