@@ -1,13 +1,13 @@
 # City Labels
 
+A way to generate a lot of unique, but memorable labels. The cities are unique, the countries are just for context.
+
+:warning: **Warning:** this is super sketchy code. If you think it's useful, let me know and I'll add more features and tidy it up.
+
 |Vancouver, Canada |Lagos, Nigeria |
 |---|---|  
 |![A world map with a marker that points to Vancouver in Canada](Canada_Vancouver.svg)|![A world map with a marker that points to Lagos in Nigeria](Nigeria_Lagos.svg)|
 
-
-A way to generate a lot of unique, but memorable labels. The cities are unique, the countries are just for context.
-
-**Warning:** this is super sketchy code. If you think it's useful, let me know and I'll add more features and tidy it up.
 
 You can either use a `png` marker or a MatPlotLib marker. 
 
