@@ -1,0 +1,742 @@
+country,city,@platform_path,platform_path_check
+Afghanistan,Kabul,city_maps\Afghanistan_Kabul.svg,city_maps\Afghanistan_Kabul.svg
+Albania,Tirana,city_maps\Albania_Tirana.svg,city_maps\Albania_Tirana.svg
+Algeria,Algiers,city_maps\Algeria_Algiers.svg,city_maps\Algeria_Algiers.svg
+American Samoa,Pago Pago,city_maps\American Samoa_Pago Pago.svg,city_maps\American Samoa_Pago Pago.svg
+Andorra,Andorra la Vella,city_maps\Andorra_Andorra la Vella.svg,city_maps\Andorra_Andorra la Vella.svg
+Angola,Luanda,city_maps\Angola_Luanda.svg,city_maps\Angola_Luanda.svg
+Anguilla,The Valley,city_maps\Anguilla_The Valley.svg,city_maps\Anguilla_The Valley.svg
+Antigua And Barbuda,Saint John’s,city_maps\Antigua And Barbuda_Saint John's.svg,city_maps\Antigua And Barbuda_Saint John's.svg
+Armenia,Yerevan,city_maps\Armenia_Yerevan.svg,city_maps\Armenia_Yerevan.svg
+Aruba,Oranjestad,city_maps\Aruba_Oranjestad.svg,city_maps\Aruba_Oranjestad.svg
+Australia,Sydney,city_maps\Australia_Sydney.svg,city_maps\Australia_Sydney.svg
+Austria,Vienna,city_maps\Austria_Vienna.svg,city_maps\Austria_Vienna.svg
+Azerbaijan,Baku,city_maps\Azerbaijan_Baku.svg,city_maps\Azerbaijan_Baku.svg
+"Bahamas, The",Nassau,"city_maps\Bahamas, The_Nassau.svg","city_maps\Bahamas, The_Nassau.svg"
+Bahrain,Manama,city_maps\Bahrain_Manama.svg,city_maps\Bahrain_Manama.svg
+Bangladesh,Dhaka,city_maps\Bangladesh_Dhaka.svg,city_maps\Bangladesh_Dhaka.svg
+Barbados,Bridgetown,city_maps\Barbados_Bridgetown.svg,city_maps\Barbados_Bridgetown.svg
+Belarus,Minsk,city_maps\Belarus_Minsk.svg,city_maps\Belarus_Minsk.svg
+Belgium,Brussels,city_maps\Belgium_Brussels.svg,city_maps\Belgium_Brussels.svg
+Belize,Belmopan,city_maps\Belize_Belmopan.svg,city_maps\Belize_Belmopan.svg
+Benin,Cotonou,city_maps\Benin_Cotonou.svg,city_maps\Benin_Cotonou.svg
+Bermuda,Hamilton,city_maps\Bermuda_Hamilton.svg,city_maps\Bermuda_Hamilton.svg
+Bhutan,Thimphu,city_maps\Bhutan_Thimphu.svg,city_maps\Bhutan_Thimphu.svg
+Bolivia,Santa Cruz,city_maps\Bolivia_Santa Cruz.svg,city_maps\Bolivia_Santa Cruz.svg
+Botswana,Gaborone,city_maps\Botswana_Gaborone.svg,city_maps\Botswana_Gaborone.svg
+Brazil,São Paulo,city_maps\Brazil_Sao Paulo.svg,city_maps\Brazil_Sao Paulo.svg
+Brunei,Bandar Seri Begawan,city_maps\Brunei_Bandar Seri Begawan.svg,city_maps\Brunei_Bandar Seri Begawan.svg
+Bulgaria,Sofia,city_maps\Bulgaria_Sofia.svg,city_maps\Bulgaria_Sofia.svg
+Burkina Faso,Ouagadougou,city_maps\Burkina Faso_Ouagadougou.svg,city_maps\Burkina Faso_Ouagadougou.svg
+Burundi,Bujumbura,city_maps\Burundi_Bujumbura.svg,city_maps\Burundi_Bujumbura.svg
+Cabo Verde,Praia,city_maps\Cabo Verde_Praia.svg,city_maps\Cabo Verde_Praia.svg
+Cambodia,Phnom Penh,city_maps\Cambodia_Phnom Penh.svg,city_maps\Cambodia_Phnom Penh.svg
+Cameroon,Yaoundé,city_maps\Cameroon_Yaounde.svg,city_maps\Cameroon_Yaounde.svg
+Canada,Toronto,city_maps\Canada_Toronto.svg,city_maps\Canada_Toronto.svg
+Cayman Islands,George Town,city_maps\Cayman Islands_George Town.svg,city_maps\Cayman Islands_George Town.svg
+Chad,N’Djamena,city_maps\Chad_N'Djamena.svg,city_maps\Chad_N'Djamena.svg
+China,Shanghai,city_maps\China_Shanghai.svg,city_maps\China_Shanghai.svg
+Christmas Island,Flying Fish Cove,city_maps\Christmas Island_Flying Fish Cove.svg,city_maps\Christmas Island_Flying Fish Cove.svg
+Colombia,Bogotá,city_maps\Colombia_Bogota.svg,city_maps\Colombia_Bogota.svg
+Comoros,Moroni,city_maps\Comoros_Moroni.svg,city_maps\Comoros_Moroni.svg
+Congo (Brazzaville),Brazzaville,city_maps\Congo (Brazzaville)_Brazzaville.svg,city_maps\Congo (Brazzaville)_Brazzaville.svg
+Congo (Kinshasa),Kinshasa,city_maps\Congo (Kinshasa)_Kinshasa.svg,city_maps\Congo (Kinshasa)_Kinshasa.svg
+Cook Islands,Avarua,city_maps\Cook Islands_Avarua.svg,city_maps\Cook Islands_Avarua.svg
+Costa Rica,San José,city_maps\Costa Rica_San Jose.svg,city_maps\Costa Rica_San Jose.svg
+Croatia,Zagreb,city_maps\Croatia_Zagreb.svg,city_maps\Croatia_Zagreb.svg
+Cuba,Havana,city_maps\Cuba_Havana.svg,city_maps\Cuba_Havana.svg
+Curaçao,Willemstad,city_maps\Curaçao_Willemstad.svg,city_maps\Curaçao_Willemstad.svg
+Cyprus,Nicosia,city_maps\Cyprus_Nicosia.svg,city_maps\Cyprus_Nicosia.svg
+Czechia,Prague,city_maps\Czechia_Prague.svg,city_maps\Czechia_Prague.svg
+Côte D’Ivoire,Abidjan,city_maps\Côte D’Ivoire_Abidjan.svg,city_maps\Côte D’Ivoire_Abidjan.svg
+Denmark,Copenhagen,city_maps\Denmark_Copenhagen.svg,city_maps\Denmark_Copenhagen.svg
+Djibouti,Djibouti,city_maps\Djibouti_Djibouti.svg,city_maps\Djibouti_Djibouti.svg
+Dominica,Roseau,city_maps\Dominica_Roseau.svg,city_maps\Dominica_Roseau.svg
+Dominican Republic,Santo Domingo,city_maps\Dominican Republic_Santo Domingo.svg,city_maps\Dominican Republic_Santo Domingo.svg
+Ecuador,Guayaquil,city_maps\Ecuador_Guayaquil.svg,city_maps\Ecuador_Guayaquil.svg
+Egypt,Cairo,city_maps\Egypt_Cairo.svg,city_maps\Egypt_Cairo.svg
+El Salvador,San Salvador,city_maps\El Salvador_San Salvador.svg,city_maps\El Salvador_San Salvador.svg
+Equatorial Guinea,Malabo,city_maps\Equatorial Guinea_Malabo.svg,city_maps\Equatorial Guinea_Malabo.svg
+Eritrea,Asmara,city_maps\Eritrea_Asmara.svg,city_maps\Eritrea_Asmara.svg
+Estonia,Tallinn,city_maps\Estonia_Tallinn.svg,city_maps\Estonia_Tallinn.svg
+Ethiopia,Addis Ababa,city_maps\Ethiopia_Addis Ababa.svg,city_maps\Ethiopia_Addis Ababa.svg
+Faroe Islands,Tórshavn,city_maps\Faroe Islands_Torshavn.svg,city_maps\Faroe Islands_Torshavn.svg
+Fiji,Suva,city_maps\Fiji_Suva.svg,city_maps\Fiji_Suva.svg
+Finland,Helsinki,city_maps\Finland_Helsinki.svg,city_maps\Finland_Helsinki.svg
+France,Paris,city_maps\France_Paris.svg,city_maps\France_Paris.svg
+French Guiana,Cayenne,city_maps\French Guiana_Cayenne.svg,city_maps\French Guiana_Cayenne.svg
+French Polynesia,Papeete,city_maps\French Polynesia_Papeete.svg,city_maps\French Polynesia_Papeete.svg
+Gabon,Libreville,city_maps\Gabon_Libreville.svg,city_maps\Gabon_Libreville.svg
+"Gambia, The",Banjul,"city_maps\Gambia, The_Banjul.svg","city_maps\Gambia, The_Banjul.svg"
+Gaza Strip,Gaza,city_maps\Gaza Strip_Gaza.svg,city_maps\Gaza Strip_Gaza.svg
+Georgia,Tbilisi,city_maps\Georgia_Tbilisi.svg,city_maps\Georgia_Tbilisi.svg
+Germany,Berlin,city_maps\Germany_Berlin.svg,city_maps\Germany_Berlin.svg
+Ghana,Accra,city_maps\Ghana_Accra.svg,city_maps\Ghana_Accra.svg
+Gibraltar,Gibraltar,city_maps\Gibraltar_Gibraltar.svg,city_maps\Gibraltar_Gibraltar.svg
+Greece,Athens,city_maps\Greece_Athens.svg,city_maps\Greece_Athens.svg
+Greenland,Nuuk,city_maps\Greenland_Nuuk.svg,city_maps\Greenland_Nuuk.svg
+Grenada,Saint George’s,city_maps\Grenada_Saint George's.svg,city_maps\Grenada_Saint George's.svg
+Guadeloupe,Basse-Terre,city_maps\Guadeloupe_Basse-Terre.svg,city_maps\Guadeloupe_Basse-Terre.svg
+Guam,Hagåtña,city_maps\Guam_Hagta.svg,city_maps\Guam_Hagta.svg
+Guatemala,Guatemala City,city_maps\Guatemala_Guatemala City.svg,city_maps\Guatemala_Guatemala City.svg
+Guinea,Conakry,city_maps\Guinea_Conakry.svg,city_maps\Guinea_Conakry.svg
+Guinea-Bissau,Bissau,city_maps\Guinea-Bissau_Bissau.svg,city_maps\Guinea-Bissau_Bissau.svg
+Guyana,Georgetown,city_maps\Guyana_Georgetown.svg,city_maps\Guyana_Georgetown.svg
+Haiti,Port-au-Prince,city_maps\Haiti_Port-au-Prince.svg,city_maps\Haiti_Port-au-Prince.svg
+Honduras,Comayagüela,city_maps\Honduras_Comayaguela.svg,city_maps\Honduras_Comayaguela.svg
+Hong Kong,Hong Kong,city_maps\Hong Kong_Hong Kong.svg,city_maps\Hong Kong_Hong Kong.svg
+Hungary,Budapest,city_maps\Hungary_Budapest.svg,city_maps\Hungary_Budapest.svg
+Iceland,Reykjavík,city_maps\Iceland_Reykjavik.svg,city_maps\Iceland_Reykjavik.svg
+India,Delhi,city_maps\India_Delhi.svg,city_maps\India_Delhi.svg
+Indonesia,Jakarta,city_maps\Indonesia_Jakarta.svg,city_maps\Indonesia_Jakarta.svg
+Iran,Tehran,city_maps\Iran_Tehran.svg,city_maps\Iran_Tehran.svg
+Iraq,Baghdad,city_maps\Iraq_Baghdad.svg,city_maps\Iraq_Baghdad.svg
+Ireland,Dublin,city_maps\Ireland_Dublin.svg,city_maps\Ireland_Dublin.svg
+Isle Of Man,Douglas,city_maps\Isle Of Man_Douglas.svg,city_maps\Isle Of Man_Douglas.svg
+Israel,Jerusalem,city_maps\Israel_Jerusalem.svg,city_maps\Israel_Jerusalem.svg
+Italy,Rome,city_maps\Italy_Rome.svg,city_maps\Italy_Rome.svg
+Jamaica,Kingston,city_maps\Jamaica_Kingston.svg,city_maps\Jamaica_Kingston.svg
+Japan,Tokyo,city_maps\Japan_Tokyo.svg,city_maps\Japan_Tokyo.svg
+Jersey,Saint Helier,city_maps\Jersey_Saint Helier.svg,city_maps\Jersey_Saint Helier.svg
+Jordan,Amman,city_maps\Jordan_Amman.svg,city_maps\Jordan_Amman.svg
+Kazakhstan,Almaty,city_maps\Kazakhstan_Almaty.svg,city_maps\Kazakhstan_Almaty.svg
+Kenya,Nairobi,city_maps\Kenya_Nairobi.svg,city_maps\Kenya_Nairobi.svg
+Kiribati,Tarawa,city_maps\Kiribati_Tarawa.svg,city_maps\Kiribati_Tarawa.svg
+"Korea, South",Seoul,"city_maps\Korea, South_Seoul.svg","city_maps\Korea, South_Seoul.svg"
+Kosovo,Pristina,city_maps\Kosovo_Pristina.svg,city_maps\Kosovo_Pristina.svg
+Kuwait,Kuwait City,city_maps\Kuwait_Kuwait City.svg,city_maps\Kuwait_Kuwait City.svg
+Kyrgyzstan,Bishkek,city_maps\Kyrgyzstan_Bishkek.svg,city_maps\Kyrgyzstan_Bishkek.svg
+Laos,Vientiane,city_maps\Laos_Vientiane.svg,city_maps\Laos_Vientiane.svg
+Latvia,Riga,city_maps\Latvia_Riga.svg,city_maps\Latvia_Riga.svg
+Lebanon,Beirut,city_maps\Lebanon_Beirut.svg,city_maps\Lebanon_Beirut.svg
+Lesotho,Maseru,city_maps\Lesotho_Maseru.svg,city_maps\Lesotho_Maseru.svg
+Liberia,Monrovia,city_maps\Liberia_Monrovia.svg,city_maps\Liberia_Monrovia.svg
+Libya,Tripoli,city_maps\Libya_Tripoli.svg,city_maps\Libya_Tripoli.svg
+Liechtenstein,Vaduz,city_maps\Liechtenstein_Vaduz.svg,city_maps\Liechtenstein_Vaduz.svg
+Lithuania,Vilnius,city_maps\Lithuania_Vilnius.svg,city_maps\Lithuania_Vilnius.svg
+Luxembourg,Luxembourg,city_maps\Luxembourg_Luxembourg.svg,city_maps\Luxembourg_Luxembourg.svg
+Macau,Macau,city_maps\Macau_Macau.svg,city_maps\Macau_Macau.svg
+Macedonia,Skopje,city_maps\Macedonia_Skopje.svg,city_maps\Macedonia_Skopje.svg
+Madagascar,Antananarivo,city_maps\Madagascar_Antananarivo.svg,city_maps\Madagascar_Antananarivo.svg
+Malawi,Blantyre,city_maps\Malawi_Blantyre.svg,city_maps\Malawi_Blantyre.svg
+Malaysia,Kuala Lumpur,city_maps\Malaysia_Kuala Lumpur.svg,city_maps\Malaysia_Kuala Lumpur.svg
+Maldives,Male,city_maps\Maldives_Male.svg,city_maps\Maldives_Male.svg
+Mali,Bamako,city_maps\Mali_Bamako.svg,city_maps\Mali_Bamako.svg
+Malta,Valletta,city_maps\Malta_Valletta.svg,city_maps\Malta_Valletta.svg
+Marshall Islands,Majuro,city_maps\Marshall Islands_Majuro.svg,city_maps\Marshall Islands_Majuro.svg
+Martinique,Fort-de-France,city_maps\Martinique_Fort-de-France.svg,city_maps\Martinique_Fort-de-France.svg
+Mauritania,Nouakchott,city_maps\Mauritania_Nouakchott.svg,city_maps\Mauritania_Nouakchott.svg
+Mauritius,Port Louis,city_maps\Mauritius_Port Louis.svg,city_maps\Mauritius_Port Louis.svg
+Mayotte,Mamoudzou,city_maps\Mayotte_Mamoudzou.svg,city_maps\Mayotte_Mamoudzou.svg
+Mexico,Mexico City,city_maps\Mexico_Mexico City.svg,city_maps\Mexico_Mexico City.svg
+Moldova,Chisinau,city_maps\Moldova_Chisinau.svg,city_maps\Moldova_Chisinau.svg
+Monaco,Monaco,city_maps\Monaco_Monaco.svg,city_maps\Monaco_Monaco.svg
+Mongolia,Ulaanbaatar,city_maps\Mongolia_Ulaanbaatar.svg,city_maps\Mongolia_Ulaanbaatar.svg
+Montenegro,Podgorica,city_maps\Montenegro_Podgorica.svg,city_maps\Montenegro_Podgorica.svg
+Morocco,Casablanca,city_maps\Morocco_Casablanca.svg,city_maps\Morocco_Casablanca.svg
+Mozambique,Maputo,city_maps\Mozambique_Maputo.svg,city_maps\Mozambique_Maputo.svg
+Myanmar,Rangoon,city_maps\Myanmar_Rangoon.svg,city_maps\Myanmar_Rangoon.svg
+Namibia,Windhoek,city_maps\Namibia_Windhoek.svg,city_maps\Namibia_Windhoek.svg
+Nepal,Kathmandu,city_maps\Nepal_Kathmandu.svg,city_maps\Nepal_Kathmandu.svg
+Netherlands,The Hague,city_maps\Netherlands_The Hague.svg,city_maps\Netherlands_The Hague.svg
+New Caledonia,Nouméa,city_maps\New Caledonia_Noumea.svg,city_maps\New Caledonia_Noumea.svg
+New Zealand,Auckland,city_maps\New Zealand_Auckland.svg,city_maps\New Zealand_Auckland.svg
+Nicaragua,Managua,city_maps\Nicaragua_Managua.svg,city_maps\Nicaragua_Managua.svg
+Niger,Niamey,city_maps\Niger_Niamey.svg,city_maps\Niger_Niamey.svg
+Nigeria,Lagos,city_maps\Nigeria_Lagos.svg,city_maps\Nigeria_Lagos.svg
+Niue,Alofi,city_maps\Niue_Alofi.svg,city_maps\Niue_Alofi.svg
+Norway,Oslo,city_maps\Norway_Oslo.svg,city_maps\Norway_Oslo.svg
+Oman,Muscat,city_maps\Oman_Muscat.svg,city_maps\Oman_Muscat.svg
+Pakistan,Karachi,city_maps\Pakistan_Karachi.svg,city_maps\Pakistan_Karachi.svg
+Palau,Ngerulmud,city_maps\Palau_Ngerulmud.svg,city_maps\Palau_Ngerulmud.svg
+Panama,Panama City,city_maps\Panama_Panama City.svg,city_maps\Panama_Panama City.svg
+Papua New Guinea,Port Moresby,city_maps\Papua New Guinea_Port Moresby.svg,city_maps\Papua New Guinea_Port Moresby.svg
+Paraguay,Asunción,city_maps\Paraguay_Asuncion.svg,city_maps\Paraguay_Asuncion.svg
+Peru,Lima,city_maps\Peru_Lima.svg,city_maps\Peru_Lima.svg
+Philippines,Manila,city_maps\Philippines_Manila.svg,city_maps\Philippines_Manila.svg
+Pitcairn Islands,Adamstown,city_maps\Pitcairn Islands_Adamstown.svg,city_maps\Pitcairn Islands_Adamstown.svg
+Poland,Warsaw,city_maps\Poland_Warsaw.svg,city_maps\Poland_Warsaw.svg
+Portugal,Lisbon,city_maps\Portugal_Lisbon.svg,city_maps\Portugal_Lisbon.svg
+Puerto Rico,San Juan,city_maps\Puerto Rico_San Juan.svg,city_maps\Puerto Rico_San Juan.svg
+Qatar,Doha,city_maps\Qatar_Doha.svg,city_maps\Qatar_Doha.svg
+Reunion,Saint-Denis,city_maps\Reunion_Saint-Denis.svg,city_maps\Reunion_Saint-Denis.svg
+Romania,Bucharest,city_maps\Romania_Bucharest.svg,city_maps\Romania_Bucharest.svg
+Russia,Moscow,city_maps\Russia_Moscow.svg,city_maps\Russia_Moscow.svg
+Rwanda,Kigali,city_maps\Rwanda_Kigali.svg,city_maps\Rwanda_Kigali.svg
+Saint Barthelemy,Gustavia,city_maps\Saint Barthelemy_Gustavia.svg,city_maps\Saint Barthelemy_Gustavia.svg
+Saint Kitts And Nevis,Basseterre,city_maps\Saint Kitts And Nevis_Basseterre.svg,city_maps\Saint Kitts And Nevis_Basseterre.svg
+Saint Lucia,Castries,city_maps\Saint Lucia_Castries.svg,city_maps\Saint Lucia_Castries.svg
+Saint Martin,Marigot,city_maps\Saint Martin_Marigot.svg,city_maps\Saint Martin_Marigot.svg
+Samoa,Apia,city_maps\Samoa_Apia.svg,city_maps\Samoa_Apia.svg
+San Marino,San Marino,city_maps\San Marino_San Marino.svg,city_maps\San Marino_San Marino.svg
+Saudi Arabia,Riyadh,city_maps\Saudi Arabia_Riyadh.svg,city_maps\Saudi Arabia_Riyadh.svg
+Senegal,Pikine,city_maps\Senegal_Pikine.svg,city_maps\Senegal_Pikine.svg
+Serbia,Belgrade,city_maps\Serbia_Belgrade.svg,city_maps\Serbia_Belgrade.svg
+Seychelles,Victoria,city_maps\Seychelles_Victoria.svg,city_maps\Seychelles_Victoria.svg
+Sierra Leone,Freetown,city_maps\Sierra Leone_Freetown.svg,city_maps\Sierra Leone_Freetown.svg
+Singapore,Singapore,city_maps\Singapore_Singapore.svg,city_maps\Singapore_Singapore.svg
+Sint Maarten,Philipsburg,city_maps\Sint Maarten_Philipsburg.svg,city_maps\Sint Maarten_Philipsburg.svg
+Slovakia,Bratislava,city_maps\Slovakia_Bratislava.svg,city_maps\Slovakia_Bratislava.svg
+Slovenia,Ljubljana,city_maps\Slovenia_Ljubljana.svg,city_maps\Slovenia_Ljubljana.svg
+Solomon Islands,Honiara,city_maps\Solomon Islands_Honiara.svg,city_maps\Solomon Islands_Honiara.svg
+Somalia,Mogadishu,city_maps\Somalia_Mogadishu.svg,city_maps\Somalia_Mogadishu.svg
+South Africa,Johannesburg,city_maps\South Africa_Johannesburg.svg,city_maps\South Africa_Johannesburg.svg
+South Sudan,Juba,city_maps\South Sudan_Juba.svg,city_maps\South Sudan_Juba.svg
+Spain,Madrid,city_maps\Spain_Madrid.svg,city_maps\Spain_Madrid.svg
+Sri Lanka,Colombo,city_maps\Sri Lanka_Colombo.svg,city_maps\Sri Lanka_Colombo.svg
+Sudan,Khartoum,city_maps\Sudan_Khartoum.svg,city_maps\Sudan_Khartoum.svg
+Suriname,Paramaribo,city_maps\Suriname_Paramaribo.svg,city_maps\Suriname_Paramaribo.svg
+Svalbard,Longyearbyen,city_maps\Svalbard_Longyearbyen.svg,city_maps\Svalbard_Longyearbyen.svg
+Swaziland,Mbabane,city_maps\Swaziland_Mbabane.svg,city_maps\Swaziland_Mbabane.svg
+Sweden,Stockholm,city_maps\Sweden_Stockholm.svg,city_maps\Sweden_Stockholm.svg
+Switzerland,Bern,city_maps\Switzerland_Bern.svg,city_maps\Switzerland_Bern.svg
+Syria,Aleppo,city_maps\Syria_Aleppo.svg,city_maps\Syria_Aleppo.svg
+Taiwan,Taichung,city_maps\Taiwan_Taichung.svg,city_maps\Taiwan_Taichung.svg
+Tajikistan,Dushanbe,city_maps\Tajikistan_Dushanbe.svg,city_maps\Tajikistan_Dushanbe.svg
+Tanzania,Dar es Salaam,city_maps\Tanzania_Dar es Salaam.svg,city_maps\Tanzania_Dar es Salaam.svg
+Thailand,Bangkok,city_maps\Thailand_Bangkok.svg,city_maps\Thailand_Bangkok.svg
+Timor-Leste,Dili,city_maps\Timor-Leste_Dili.svg,city_maps\Timor-Leste_Dili.svg
+Togo,Lomé,city_maps\Togo_Lome.svg,city_maps\Togo_Lome.svg
+Tonga,Nuku‘alofa,city_maps\Tonga_Nuku`alofa.svg,city_maps\Tonga_Nuku`alofa.svg
+Trinidad And Tobago,Port of Spain,city_maps\Trinidad And Tobago_Port of Spain.svg,city_maps\Trinidad And Tobago_Port of Spain.svg
+Tunisia,Tunis,city_maps\Tunisia_Tunis.svg,city_maps\Tunisia_Tunis.svg
+Turkey,Istanbul,city_maps\Turkey_Istanbul.svg,city_maps\Turkey_Istanbul.svg
+Turkmenistan,Ashgabat,city_maps\Turkmenistan_Ashgabat.svg,city_maps\Turkmenistan_Ashgabat.svg
+Tuvalu,Funafuti,city_maps\Tuvalu_Funafuti.svg,city_maps\Tuvalu_Funafuti.svg
+Uganda,Kampala,city_maps\Uganda_Kampala.svg,city_maps\Uganda_Kampala.svg
+Ukraine,Kyiv,city_maps\Ukraine_Kyiv.svg,city_maps\Ukraine_Kyiv.svg
+United Arab Emirates,Dubai,city_maps\United Arab Emirates_Dubai.svg,city_maps\United Arab Emirates_Dubai.svg
+United Kingdom,London,city_maps\United Kingdom_London.svg,city_maps\United Kingdom_London.svg
+United States,New York,city_maps\United States_New York.svg,city_maps\United States_New York.svg
+Uzbekistan,Tashkent,city_maps\Uzbekistan_Tashkent.svg,city_maps\Uzbekistan_Tashkent.svg
+Vanuatu,Port-Vila,city_maps\Vanuatu_Port-Vila.svg,city_maps\Vanuatu_Port-Vila.svg
+Vatican City,Vatican City,city_maps\Vatican City_Vatican City.svg,city_maps\Vatican City_Vatican City.svg
+Venezuela,Caracas,city_maps\Venezuela_Caracas.svg,city_maps\Venezuela_Caracas.svg
+Vietnam,Ho Chi Minh City,city_maps\Vietnam_Ho Chi Minh City.svg,city_maps\Vietnam_Ho Chi Minh City.svg
+"Virgin Islands, British",Road Town,"city_maps\Virgin Islands, British_Road Town.svg","city_maps\Virgin Islands, British_Road Town.svg"
+Wallis And Futuna,Mata-Utu,city_maps\Wallis And Futuna_Mata-Utu.svg,city_maps\Wallis And Futuna_Mata-Utu.svg
+West Bank,Al Quds,city_maps\West Bank_Al Quds.svg,city_maps\West Bank_Al Quds.svg
+Western Sahara,Tifariti,city_maps\Western Sahara_Tifariti.svg,city_maps\Western Sahara_Tifariti.svg
+Yemen,Sanaa,city_maps\Yemen_Sanaa.svg,city_maps\Yemen_Sanaa.svg
+Zambia,Lusaka,city_maps\Zambia_Lusaka.svg,city_maps\Zambia_Lusaka.svg
+Zimbabwe,Harare,city_maps\Zimbabwe_Harare.svg,city_maps\Zimbabwe_Harare.svg
+Albania,Durrës,city_maps\Albania_Durres.svg,city_maps\Albania_Durres.svg
+Algeria,Oran,city_maps\Algeria_Oran.svg,city_maps\Algeria_Oran.svg
+Andorra,Escaldes-Engordany,city_maps\Andorra_Escaldes-Engordany.svg,city_maps\Andorra_Escaldes-Engordany.svg
+Angola,Huambo,city_maps\Angola_Huambo.svg,city_maps\Angola_Huambo.svg
+Argentina,Córdoba,city_maps\Argentina_Cordoba.svg,city_maps\Argentina_Cordoba.svg
+Armenia,Gyumri,city_maps\Armenia_Gyumri.svg,city_maps\Armenia_Gyumri.svg
+Aruba,Tanki Leendert,city_maps\Aruba_Tanki Leendert.svg,city_maps\Aruba_Tanki Leendert.svg
+Australia,Melbourne,city_maps\Australia_Melbourne.svg,city_maps\Australia_Melbourne.svg
+Austria,Graz,city_maps\Austria_Graz.svg,city_maps\Austria_Graz.svg
+Azerbaijan,Sumqayıt,city_maps\Azerbaijan_Sumqayit.svg,city_maps\Azerbaijan_Sumqayit.svg
+"Bahamas, The",Freeport City,"city_maps\Bahamas, The_Freeport City.svg","city_maps\Bahamas, The_Freeport City.svg"
+Bahrain,Al Muḩarraq,city_maps\Bahrain_Al Muharraq.svg,city_maps\Bahrain_Al Muharraq.svg
+Bangladesh,Chattogram,city_maps\Bangladesh_Chattogram.svg,city_maps\Bangladesh_Chattogram.svg
+Belarus,Homyel’,city_maps\Belarus_Homyel'.svg,city_maps\Belarus_Homyel'.svg
+Belgium,Antwerp,city_maps\Belgium_Antwerp.svg,city_maps\Belgium_Antwerp.svg
+Belize,Belize City,city_maps\Belize_Belize City.svg,city_maps\Belize_Belize City.svg
+Benin,Porto-Novo,city_maps\Benin_Porto-Novo.svg,city_maps\Benin_Porto-Novo.svg
+Bhutan,Paro,city_maps\Bhutan_Paro.svg,city_maps\Bhutan_Paro.svg
+Bolivia,La Paz,city_maps\Bolivia_La Paz.svg,city_maps\Bolivia_La Paz.svg
+Botswana,Francistown,city_maps\Botswana_Francistown.svg,city_maps\Botswana_Francistown.svg
+Brazil,Rio de Janeiro,city_maps\Brazil_Rio de Janeiro.svg,city_maps\Brazil_Rio de Janeiro.svg
+Brunei,Kuala Belait,city_maps\Brunei_Kuala Belait.svg,city_maps\Brunei_Kuala Belait.svg
+Bulgaria,Varna,city_maps\Bulgaria_Varna.svg,city_maps\Bulgaria_Varna.svg
+Burkina Faso,Bobo-Dioulasso,city_maps\Burkina Faso_Bobo-Dioulasso.svg,city_maps\Burkina Faso_Bobo-Dioulasso.svg
+Burundi,Gitega,city_maps\Burundi_Gitega.svg,city_maps\Burundi_Gitega.svg
+Cabo Verde,Mindelo,city_maps\Cabo Verde_Mindelo.svg,city_maps\Cabo Verde_Mindelo.svg
+Cambodia,Siem Reap,city_maps\Cambodia_Siem Reap.svg,city_maps\Cambodia_Siem Reap.svg
+Cameroon,Douala,city_maps\Cameroon_Douala.svg,city_maps\Cameroon_Douala.svg
+Canada,Montréal,city_maps\Canada_Montreal.svg,city_maps\Canada_Montreal.svg
+Chad,Moundou,city_maps\Chad_Moundou.svg,city_maps\Chad_Moundou.svg
+China,Guangzhou,city_maps\China_Guangzhou.svg,city_maps\China_Guangzhou.svg
+Colombia,Medellín,city_maps\Colombia_Medellin.svg,city_maps\Colombia_Medellin.svg
+Comoros,Mutsamudu,city_maps\Comoros_Mutsamudu.svg,city_maps\Comoros_Mutsamudu.svg
+Congo (Brazzaville),Pointe-Noire,city_maps\Congo (Brazzaville)_Pointe-Noire.svg,city_maps\Congo (Brazzaville)_Pointe-Noire.svg
+Congo (Kinshasa),Kananga,city_maps\Congo (Kinshasa)_Kananga.svg,city_maps\Congo (Kinshasa)_Kananga.svg
+Costa Rica,Cartago,city_maps\Costa Rica_Cartago.svg,city_maps\Costa Rica_Cartago.svg
+Croatia,Split,city_maps\Croatia_Split.svg,city_maps\Croatia_Split.svg
+Cuba,Santiago de Cuba,city_maps\Cuba_Santiago de Cuba.svg,city_maps\Cuba_Santiago de Cuba.svg
+Cyprus,Limassol,city_maps\Cyprus_Limassol.svg,city_maps\Cyprus_Limassol.svg
+Czechia,Brno,city_maps\Czechia_Brno.svg,city_maps\Czechia_Brno.svg
+Côte D’Ivoire,Yamoussoukro,city_maps\Côte D’Ivoire_Yamoussoukro.svg,city_maps\Côte D’Ivoire_Yamoussoukro.svg
+Denmark,Aarhus,city_maps\Denmark_Aarhus.svg,city_maps\Denmark_Aarhus.svg
+Djibouti,Ali Sabieh,city_maps\Djibouti_Ali Sabieh.svg,city_maps\Djibouti_Ali Sabieh.svg
+Ecuador,Quito,city_maps\Ecuador_Quito.svg,city_maps\Ecuador_Quito.svg
+Egypt,Giza,city_maps\Egypt_Giza.svg,city_maps\Egypt_Giza.svg
+El Salvador,Usulután,city_maps\El Salvador_Usulutan.svg,city_maps\El Salvador_Usulutan.svg
+Equatorial Guinea,Bata,city_maps\Equatorial Guinea_Bata.svg,city_maps\Equatorial Guinea_Bata.svg
+Eritrea,Keren,city_maps\Eritrea_Keren.svg,city_maps\Eritrea_Keren.svg
+Estonia,Tartu,city_maps\Estonia_Tartu.svg,city_maps\Estonia_Tartu.svg
+Ethiopia,Nazrēt,city_maps\Ethiopia_Nazret.svg,city_maps\Ethiopia_Nazret.svg
+Faroe Islands,Klaksvík,city_maps\Faroe Islands_Klaksvik.svg,city_maps\Faroe Islands_Klaksvik.svg
+Fiji,Lautoka,city_maps\Fiji_Lautoka.svg,city_maps\Fiji_Lautoka.svg
+Finland,Espoo,city_maps\Finland_Espoo.svg,city_maps\Finland_Espoo.svg
+France,Nice,city_maps\France_Nice.svg,city_maps\France_Nice.svg
+Gabon,Port-Gentil,city_maps\Gabon_Port-Gentil.svg,city_maps\Gabon_Port-Gentil.svg
+"Gambia, The",Brikama,"city_maps\Gambia, The_Brikama.svg","city_maps\Gambia, The_Brikama.svg"
+Georgia,Batumi,city_maps\Georgia_Batumi.svg,city_maps\Georgia_Batumi.svg
+Germany,Hamburg,city_maps\Germany_Hamburg.svg,city_maps\Germany_Hamburg.svg
+Ghana,Kumasi,city_maps\Ghana_Kumasi.svg,city_maps\Ghana_Kumasi.svg
+Greece,Thessaloníki,city_maps\Greece_Thessaloniki.svg,city_maps\Greece_Thessaloniki.svg
+Greenland,Sisimiut,city_maps\Greenland_Sisimiut.svg,city_maps\Greenland_Sisimiut.svg
+Guadeloupe,Pointe-à-Pitre,city_maps\Guadeloupe_Pointe-a-Pitre.svg,city_maps\Guadeloupe_Pointe-a-Pitre.svg
+Guam,Maina,city_maps\Guam_Maina.svg,city_maps\Guam_Maina.svg
+Guatemala,Villa Nueva,city_maps\Guatemala_Villa Nueva.svg,city_maps\Guatemala_Villa Nueva.svg
+Guinea,Guéckédou,city_maps\Guinea_Gueckedou.svg,city_maps\Guinea_Gueckedou.svg
+Guinea-Bissau,Farim,city_maps\Guinea-Bissau_Farim.svg,city_maps\Guinea-Bissau_Farim.svg
+Guyana,New Amsterdam,city_maps\Guyana_New Amsterdam.svg,city_maps\Guyana_New Amsterdam.svg
+Haiti,Carrefour,city_maps\Haiti_Carrefour.svg,city_maps\Haiti_Carrefour.svg
+Honduras,Tegucigalpa,city_maps\Honduras_Tegucigalpa.svg,city_maps\Honduras_Tegucigalpa.svg
+Hungary,Debrecen,city_maps\Hungary_Debrecen.svg,city_maps\Hungary_Debrecen.svg
+Iceland,Kópavogur,city_maps\Iceland_Kopavogur.svg,city_maps\Iceland_Kopavogur.svg
+India,Mumbai,city_maps\India_Mumbai.svg,city_maps\India_Mumbai.svg
+Indonesia,Surabaya,city_maps\Indonesia_Surabaya.svg,city_maps\Indonesia_Surabaya.svg
+Iran,Mashhad,city_maps\Iran_Mashhad.svg,city_maps\Iran_Mashhad.svg
+Iraq,Mosul,city_maps\Iraq_Mosul.svg,city_maps\Iraq_Mosul.svg
+Ireland,Cork,city_maps\Ireland_Cork.svg,city_maps\Ireland_Cork.svg
+Israel,Tel Aviv-Yafo,city_maps\Israel_Tel Aviv-Yafo.svg,city_maps\Israel_Tel Aviv-Yafo.svg
+Italy,Milan,city_maps\Italy_Milan.svg,city_maps\Italy_Milan.svg
+Jamaica,Portmore,city_maps\Jamaica_Portmore.svg,city_maps\Jamaica_Portmore.svg
+Jordan,Irbid,city_maps\Jordan_Irbid.svg,city_maps\Jordan_Irbid.svg
+Kazakhstan,Nur-Sultan,city_maps\Kazakhstan_Nur-Sultan.svg,city_maps\Kazakhstan_Nur-Sultan.svg
+Kenya,Meru,city_maps\Kenya_Meru.svg,city_maps\Kenya_Meru.svg
+Kiribati,Teaoraereke,city_maps\Kiribati_Teaoraereke.svg,city_maps\Kiribati_Teaoraereke.svg
+"Korea, South",Busan,"city_maps\Korea, South_Busan.svg","city_maps\Korea, South_Busan.svg"
+Kosovo,Prizren,city_maps\Kosovo_Prizren.svg,city_maps\Kosovo_Prizren.svg
+Kyrgyzstan,Osh,city_maps\Kyrgyzstan_Osh.svg,city_maps\Kyrgyzstan_Osh.svg
+Laos,Savannakhet,city_maps\Laos_Savannakhet.svg,city_maps\Laos_Savannakhet.svg
+Latvia,Daugavpils,city_maps\Latvia_Daugavpils.svg,city_maps\Latvia_Daugavpils.svg
+Lesotho,Teyateyaneng,city_maps\Lesotho_Teyateyaneng.svg,city_maps\Lesotho_Teyateyaneng.svg
+Liberia,Gbarnga,city_maps\Liberia_Gbarnga.svg,city_maps\Liberia_Gbarnga.svg
+Libya,Benghazi,city_maps\Libya_Benghazi.svg,city_maps\Libya_Benghazi.svg
+Liechtenstein,Schaan,city_maps\Liechtenstein_Schaan.svg,city_maps\Liechtenstein_Schaan.svg
+Lithuania,Kaunas,city_maps\Lithuania_Kaunas.svg,city_maps\Lithuania_Kaunas.svg
+Luxembourg,Esch-sur-Alzette,city_maps\Luxembourg_Esch-sur-Alzette.svg,city_maps\Luxembourg_Esch-sur-Alzette.svg
+Macedonia,Tetovo,city_maps\Macedonia_Tetovo.svg,city_maps\Macedonia_Tetovo.svg
+Madagascar,Antsirabe,city_maps\Madagascar_Antsirabe.svg,city_maps\Madagascar_Antsirabe.svg
+Malawi,Lilongwe,city_maps\Malawi_Lilongwe.svg,city_maps\Malawi_Lilongwe.svg
+Malaysia,Klang,city_maps\Malaysia_Klang.svg,city_maps\Malaysia_Klang.svg
+Maldives,Un’goofaaru,city_maps\Maldives_Un'goofaaru.svg,city_maps\Maldives_Un'goofaaru.svg
+Mali,Sikasso,city_maps\Mali_Sikasso.svg,city_maps\Mali_Sikasso.svg
+Malta,Birkirkara,city_maps\Malta_Birkirkara.svg,city_maps\Malta_Birkirkara.svg
+Mauritania,Néma,city_maps\Mauritania_Nema.svg,city_maps\Mauritania_Nema.svg
+Mauritius,Curepipe,city_maps\Mauritius_Curepipe.svg,city_maps\Mauritius_Curepipe.svg
+Mexico,Guadalajara,city_maps\Mexico_Guadalajara.svg,city_maps\Mexico_Guadalajara.svg
+Moldova,Bălţi,city_maps\Moldova_Balti.svg,city_maps\Moldova_Balti.svg
+Mongolia,Mörön,city_maps\Mongolia_Moron.svg,city_maps\Mongolia_Moron.svg
+Montenegro,Pljevlja,city_maps\Montenegro_Pljevlja.svg,city_maps\Montenegro_Pljevlja.svg
+Morocco,El Kelaa des Srarhna,city_maps\Morocco_El Kelaa des Srarhna.svg,city_maps\Morocco_El Kelaa des Srarhna.svg
+Mozambique,Matola,city_maps\Mozambique_Matola.svg,city_maps\Mozambique_Matola.svg
+Myanmar,Mandalay,city_maps\Myanmar_Mandalay.svg,city_maps\Myanmar_Mandalay.svg
+Namibia,Rundu,city_maps\Namibia_Rundu.svg,city_maps\Namibia_Rundu.svg
+Nepal,Pokhara,city_maps\Nepal_Pokhara.svg,city_maps\Nepal_Pokhara.svg
+Netherlands,Amsterdam,city_maps\Netherlands_Amsterdam.svg,city_maps\Netherlands_Amsterdam.svg
+New Caledonia,Koné,city_maps\New Caledonia_Kone.svg,city_maps\New Caledonia_Kone.svg
+New Zealand,Wellington,city_maps\New Zealand_Wellington.svg,city_maps\New Zealand_Wellington.svg
+Nicaragua,Boaco,city_maps\Nicaragua_Boaco.svg,city_maps\Nicaragua_Boaco.svg
+Niger,Zinder,city_maps\Niger_Zinder.svg,city_maps\Niger_Zinder.svg
+Nigeria,Kano,city_maps\Nigeria_Kano.svg,city_maps\Nigeria_Kano.svg
+Norway,Bergen,city_maps\Norway_Bergen.svg,city_maps\Norway_Bergen.svg
+Pakistan,Lahore,city_maps\Pakistan_Lahore.svg,city_maps\Pakistan_Lahore.svg
+Palau,Koror,city_maps\Palau_Koror.svg,city_maps\Palau_Koror.svg
+Panama,San Miguelito,city_maps\Panama_San Miguelito.svg,city_maps\Panama_San Miguelito.svg
+Papua New Guinea,Lae,city_maps\Papua New Guinea_Lae.svg,city_maps\Papua New Guinea_Lae.svg
+Paraguay,Ciudad del Este,city_maps\Paraguay_Ciudad del Este.svg,city_maps\Paraguay_Ciudad del Este.svg
+Peru,Callao,city_maps\Peru_Callao.svg,city_maps\Peru_Callao.svg
+Philippines,Quezon City,city_maps\Philippines_Quezon City.svg,city_maps\Philippines_Quezon City.svg
+Poland,Kraków,city_maps\Poland_Krakow.svg,city_maps\Poland_Krakow.svg
+Portugal,Sintra,city_maps\Portugal_Sintra.svg,city_maps\Portugal_Sintra.svg
+Puerto Rico,Bayamón,city_maps\Puerto Rico_Bayamon.svg,city_maps\Puerto Rico_Bayamon.svg
+Qatar,Al Khawr,city_maps\Qatar_Al Khawr.svg,city_maps\Qatar_Al Khawr.svg
+Reunion,Saint-Benoît,city_maps\Reunion_Saint-Benoit.svg,city_maps\Reunion_Saint-Benoit.svg
+Romania,Timişoara,city_maps\Romania_Timisoara.svg,city_maps\Romania_Timisoara.svg
+Russia,Saint Petersburg,city_maps\Russia_Saint Petersburg.svg,city_maps\Russia_Saint Petersburg.svg
+Rwanda,Nyanza,city_maps\Rwanda_Nyanza.svg,city_maps\Rwanda_Nyanza.svg
+Saint Lucia,Gros Islet,city_maps\Saint Lucia_Gros Islet.svg,city_maps\Saint Lucia_Gros Islet.svg
+Samoa,Afega,city_maps\Samoa_Afega.svg,city_maps\Samoa_Afega.svg
+San Marino,Serravalle,city_maps\San Marino_Serravalle.svg,city_maps\San Marino_Serravalle.svg
+Saudi Arabia,Jeddah,city_maps\Saudi Arabia_Jeddah.svg,city_maps\Saudi Arabia_Jeddah.svg
+Senegal,Dakar,city_maps\Senegal_Dakar.svg,city_maps\Senegal_Dakar.svg
+Serbia,Novi Sad,city_maps\Serbia_Novi Sad.svg,city_maps\Serbia_Novi Sad.svg
+Sierra Leone,Kenema,city_maps\Sierra Leone_Kenema.svg,city_maps\Sierra Leone_Kenema.svg
+Slovakia,Košice,city_maps\Slovakia_Kosice.svg,city_maps\Slovakia_Kosice.svg
+Slovenia,Maribor,city_maps\Slovenia_Maribor.svg,city_maps\Slovenia_Maribor.svg
+Solomon Islands,Gizo,city_maps\Solomon Islands_Gizo.svg,city_maps\Solomon Islands_Gizo.svg
+Somalia,Jamaame,city_maps\Somalia_Jamaame.svg,city_maps\Somalia_Jamaame.svg
+South Africa,Vereeniging,city_maps\South Africa_Vereeniging.svg,city_maps\South Africa_Vereeniging.svg
+South Sudan,Bor,city_maps\South Sudan_Bor.svg,city_maps\South Sudan_Bor.svg
+Spain,Barcelona,city_maps\Spain_Barcelona.svg,city_maps\Spain_Barcelona.svg
+Sudan,Omdurman,city_maps\Sudan_Omdurman.svg,city_maps\Sudan_Omdurman.svg
+Suriname,Nieuw Nickerie,city_maps\Suriname_Nieuw Nickerie.svg,city_maps\Suriname_Nieuw Nickerie.svg
+Swaziland,Lobamba,city_maps\Swaziland_Lobamba.svg,city_maps\Swaziland_Lobamba.svg
+Sweden,Gothenburg,city_maps\Sweden_Gothenburg.svg,city_maps\Sweden_Gothenburg.svg
+Switzerland,Zürich,city_maps\Switzerland_Zurich.svg,city_maps\Switzerland_Zurich.svg
+Syria,Dayr az Zawr,city_maps\Syria_Dayr az Zawr.svg,city_maps\Syria_Dayr az Zawr.svg
+Taiwan,Kaohsiung,city_maps\Taiwan_Kaohsiung.svg,city_maps\Taiwan_Kaohsiung.svg
+Tajikistan,Khŭjand,city_maps\Tajikistan_Khujand.svg,city_maps\Tajikistan_Khujand.svg
+Tanzania,Dodoma,city_maps\Tanzania_Dodoma.svg,city_maps\Tanzania_Dodoma.svg
+Thailand,Nonthaburi,city_maps\Thailand_Nonthaburi.svg,city_maps\Thailand_Nonthaburi.svg
+Timor-Leste,Maliana,city_maps\Timor-Leste_Maliana.svg,city_maps\Timor-Leste_Maliana.svg
+Togo,Sokodé,city_maps\Togo_Sokode.svg,city_maps\Togo_Sokode.svg
+Tonga,Neiafu,city_maps\Tonga_Neiafu.svg,city_maps\Tonga_Neiafu.svg
+Trinidad And Tobago,Chaguanas,city_maps\Trinidad And Tobago_Chaguanas.svg,city_maps\Trinidad And Tobago_Chaguanas.svg
+Tunisia,Sfax,city_maps\Tunisia_Sfax.svg,city_maps\Tunisia_Sfax.svg
+Turkey,Ankara,city_maps\Turkey_Ankara.svg,city_maps\Turkey_Ankara.svg
+Turkmenistan,Türkmenabat,city_maps\Turkmenistan_Turkmenabat.svg,city_maps\Turkmenistan_Turkmenabat.svg
+Uganda,Mbale,city_maps\Uganda_Mbale.svg,city_maps\Uganda_Mbale.svg
+Ukraine,Kharkiv,city_maps\Ukraine_Kharkiv.svg,city_maps\Ukraine_Kharkiv.svg
+United Arab Emirates,Sharjah,city_maps\United Arab Emirates_Sharjah.svg,city_maps\United Arab Emirates_Sharjah.svg
+United Kingdom,Birmingham,city_maps\United Kingdom_Birmingham.svg,city_maps\United Kingdom_Birmingham.svg
+United States,Los Angeles,city_maps\United States_Los Angeles.svg,city_maps\United States_Los Angeles.svg
+Uruguay,Salto,city_maps\Uruguay_Salto.svg,city_maps\Uruguay_Salto.svg
+Uzbekistan,Samarkand,city_maps\Uzbekistan_Samarkand.svg,city_maps\Uzbekistan_Samarkand.svg
+Vanuatu,Luganville,city_maps\Vanuatu_Luganville.svg,city_maps\Vanuatu_Luganville.svg
+Venezuela,Maracaibo,city_maps\Venezuela_Maracaibo.svg,city_maps\Venezuela_Maracaibo.svg
+Vietnam,Hanoi,city_maps\Vietnam_Hanoi.svg,city_maps\Vietnam_Hanoi.svg
+Wallis And Futuna,Leava,city_maps\Wallis And Futuna_Leava.svg,city_maps\Wallis And Futuna_Leava.svg
+Yemen,Ta‘izz,city_maps\Yemen_Ta`izz.svg,city_maps\Yemen_Ta`izz.svg
+Zambia,Ndola,city_maps\Zambia_Ndola.svg,city_maps\Zambia_Ndola.svg
+Zimbabwe,Bulawayo,city_maps\Zimbabwe_Bulawayo.svg,city_maps\Zimbabwe_Bulawayo.svg
+Albania,Vlorë,city_maps\Albania_Vlore.svg,city_maps\Albania_Vlore.svg
+Algeria,Constantine,city_maps\Algeria_Constantine.svg,city_maps\Algeria_Constantine.svg
+Andorra,Encamp,city_maps\Andorra_Encamp.svg,city_maps\Andorra_Encamp.svg
+Angola,Lubango,city_maps\Angola_Lubango.svg,city_maps\Angola_Lubango.svg
+Argentina,Rosario,city_maps\Argentina_Rosario.svg,city_maps\Argentina_Rosario.svg
+Armenia,Vanadzor,city_maps\Armenia_Vanadzor.svg,city_maps\Armenia_Vanadzor.svg
+Australia,Brisbane,city_maps\Australia_Brisbane.svg,city_maps\Australia_Brisbane.svg
+Austria,Linz,city_maps\Austria_Linz.svg,city_maps\Austria_Linz.svg
+Azerbaijan,Gəncə,city_maps\Azerbaijan_Ganca.svg,city_maps\Azerbaijan_Ganca.svg
+"Bahamas, The",Marsh Harbour,"city_maps\Bahamas, The_Marsh Harbour.svg","city_maps\Bahamas, The_Marsh Harbour.svg"
+Bangladesh,Khulna,city_maps\Bangladesh_Khulna.svg,city_maps\Bangladesh_Khulna.svg
+Belarus,Vitsyebsk,city_maps\Belarus_Vitsyebsk.svg,city_maps\Belarus_Vitsyebsk.svg
+Belgium,Gent,city_maps\Belgium_Gent.svg,city_maps\Belgium_Gent.svg
+Belize,Orange Walk,city_maps\Belize_Orange Walk.svg,city_maps\Belize_Orange Walk.svg
+Benin,Djougou,city_maps\Benin_Djougou.svg,city_maps\Benin_Djougou.svg
+Bhutan,Wangdue Phodrang,city_maps\Bhutan_Wangdue Phodrang.svg,city_maps\Bhutan_Wangdue Phodrang.svg
+Bolivia,Sucre,city_maps\Bolivia_Sucre.svg,city_maps\Bolivia_Sucre.svg
+Botswana,Molepolole,city_maps\Botswana_Molepolole.svg,city_maps\Botswana_Molepolole.svg
+Brazil,Belo Horizonte,city_maps\Brazil_Belo Horizonte.svg,city_maps\Brazil_Belo Horizonte.svg
+Brunei,Bangar,city_maps\Brunei_Bangar.svg,city_maps\Brunei_Bangar.svg
+Bulgaria,Plovdiv,city_maps\Bulgaria_Plovdiv.svg,city_maps\Bulgaria_Plovdiv.svg
+Burkina Faso,Koudougou,city_maps\Burkina Faso_Koudougou.svg,city_maps\Burkina Faso_Koudougou.svg
+Burundi,Ngozi,city_maps\Burundi_Ngozi.svg,city_maps\Burundi_Ngozi.svg
+Cabo Verde,São Filipe,city_maps\Cabo Verde_Sao Filipe.svg,city_maps\Cabo Verde_Sao Filipe.svg
+Cambodia,Battambang,city_maps\Cambodia_Battambang.svg,city_maps\Cambodia_Battambang.svg
+Cameroon,Maroua,city_maps\Cameroon_Maroua.svg,city_maps\Cameroon_Maroua.svg
+Canada,Vancouver,city_maps\Canada_Vancouver.svg,city_maps\Canada_Vancouver.svg
+Chad,Sarh,city_maps\Chad_Sarh.svg,city_maps\Chad_Sarh.svg
+China,Beijing,city_maps\China_Beijing.svg,city_maps\China_Beijing.svg
+Colombia,Cali,city_maps\Colombia_Cali.svg,city_maps\Colombia_Cali.svg
+Comoros,Fomboni,city_maps\Comoros_Fomboni.svg,city_maps\Comoros_Fomboni.svg
+Congo (Brazzaville),Dolisie,city_maps\Congo (Brazzaville)_Dolisie.svg,city_maps\Congo (Brazzaville)_Dolisie.svg
+Congo (Kinshasa),Lubumbashi,city_maps\Congo (Kinshasa)_Lubumbashi.svg,city_maps\Congo (Kinshasa)_Lubumbashi.svg
+Costa Rica,Puerto Limón,city_maps\Costa Rica_Puerto Limon.svg,city_maps\Costa Rica_Puerto Limon.svg
+Croatia,Rijeka,city_maps\Croatia_Rijeka.svg,city_maps\Croatia_Rijeka.svg
+Cuba,Holguín,city_maps\Cuba_Holguin.svg,city_maps\Cuba_Holguin.svg
+Cyprus,Larnaca,city_maps\Cyprus_Larnaca.svg,city_maps\Cyprus_Larnaca.svg
+Czechia,Ostrava,city_maps\Czechia_Ostrava.svg,city_maps\Czechia_Ostrava.svg
+Côte D’Ivoire,Bouaké,city_maps\Côte D’Ivoire_Bouake.svg,city_maps\Côte D’Ivoire_Bouake.svg
+Denmark,Odense,city_maps\Denmark_Odense.svg,city_maps\Denmark_Odense.svg
+Djibouti,Dikhil,city_maps\Djibouti_Dikhil.svg,city_maps\Djibouti_Dikhil.svg
+Dominican Republic,Puerto Plata,city_maps\Dominican Republic_Puerto Plata.svg,city_maps\Dominican Republic_Puerto Plata.svg
+Ecuador,Cuenca,city_maps\Ecuador_Cuenca.svg,city_maps\Ecuador_Cuenca.svg
+Egypt,Alexandria,city_maps\Egypt_Alexandria.svg,city_maps\Egypt_Alexandria.svg
+El Salvador,Santa Ana,city_maps\El Salvador_Santa Ana.svg,city_maps\El Salvador_Santa Ana.svg
+Equatorial Guinea,Ebebiyín,city_maps\Equatorial Guinea_Ebebiyin.svg,city_maps\Equatorial Guinea_Ebebiyin.svg
+Eritrea,Assab,city_maps\Eritrea_Assab.svg,city_maps\Eritrea_Assab.svg
+Estonia,Pärnu,city_maps\Estonia_Parnu.svg,city_maps\Estonia_Parnu.svg
+Ethiopia,Gonder,city_maps\Ethiopia_Gonder.svg,city_maps\Ethiopia_Gonder.svg
+Faroe Islands,Hvalba,city_maps\Faroe Islands_Hvalba.svg,city_maps\Faroe Islands_Hvalba.svg
+Fiji,Nausori,city_maps\Fiji_Nausori.svg,city_maps\Fiji_Nausori.svg
+Finland,Tampere,city_maps\Finland_Tampere.svg,city_maps\Finland_Tampere.svg
+France,Toulouse,city_maps\France_Toulouse.svg,city_maps\France_Toulouse.svg
+French Guiana,Kourou,city_maps\French Guiana_Kourou.svg,city_maps\French Guiana_Kourou.svg
+Gabon,Oyem,city_maps\Gabon_Oyem.svg,city_maps\Gabon_Oyem.svg
+"Gambia, The",Mansa Konko,"city_maps\Gambia, The_Mansa Konko.svg","city_maps\Gambia, The_Mansa Konko.svg"
+Georgia,Kutaisi,city_maps\Georgia_Kutaisi.svg,city_maps\Georgia_Kutaisi.svg
+Germany,Munich,city_maps\Germany_Munich.svg,city_maps\Germany_Munich.svg
+Ghana,Tamale,city_maps\Ghana_Tamale.svg,city_maps\Ghana_Tamale.svg
+Greece,Piraeus,city_maps\Greece_Piraeus.svg,city_maps\Greece_Piraeus.svg
+Greenland,Ilulissat,city_maps\Greenland_Ilulissat.svg,city_maps\Greenland_Ilulissat.svg
+Guadeloupe,Lasserre,city_maps\Guadeloupe_Lasserre.svg,city_maps\Guadeloupe_Lasserre.svg
+Guatemala,Cobán,city_maps\Guatemala_Coban.svg,city_maps\Guatemala_Coban.svg
+Guinea,Siguiri,city_maps\Guinea_Siguiri.svg,city_maps\Guinea_Siguiri.svg
+Guinea-Bissau,Quinhámel,city_maps\Guinea-Bissau_Quinhamel.svg,city_maps\Guinea-Bissau_Quinhamel.svg
+Guyana,Linden,city_maps\Guyana_Linden.svg,city_maps\Guyana_Linden.svg
+Haiti,Pétion-Ville,city_maps\Haiti_Petion-Ville.svg,city_maps\Haiti_Petion-Ville.svg
+Honduras,San Pedro Sula,city_maps\Honduras_San Pedro Sula.svg,city_maps\Honduras_San Pedro Sula.svg
+Hungary,Szeged,city_maps\Hungary_Szeged.svg,city_maps\Hungary_Szeged.svg
+Iceland,Hafnarfjörður,city_maps\Iceland_Hafnarfjordhur.svg,city_maps\Iceland_Hafnarfjordhur.svg
+Indonesia,Bandung,city_maps\Indonesia_Bandung.svg,city_maps\Indonesia_Bandung.svg
+Iraq,Al Başrah,city_maps\Iraq_Al Basrah.svg,city_maps\Iraq_Al Basrah.svg
+Ireland,Galway,city_maps\Ireland_Galway.svg,city_maps\Ireland_Galway.svg
+Israel,Haifa,city_maps\Israel_Haifa.svg,city_maps\Israel_Haifa.svg
+Italy,Naples,city_maps\Italy_Naples.svg,city_maps\Italy_Naples.svg
+Jamaica,May Pen,city_maps\Jamaica_May Pen.svg,city_maps\Jamaica_May Pen.svg
+Japan,Nagoya,city_maps\Japan_Nagoya.svg,city_maps\Japan_Nagoya.svg
+Kazakhstan,Shymkent,city_maps\Kazakhstan_Shymkent.svg,city_maps\Kazakhstan_Shymkent.svg
+Kenya,Mombasa,city_maps\Kenya_Mombasa.svg,city_maps\Kenya_Mombasa.svg
+"Korea, South",Incheon,"city_maps\Korea, South_Incheon.svg","city_maps\Korea, South_Incheon.svg"
+Kosovo,Ferizaj,city_maps\Kosovo_Ferizaj.svg,city_maps\Kosovo_Ferizaj.svg
+Kuwait,Abū Ḩulayfah,city_maps\Kuwait_Abu Hulayfah.svg,city_maps\Kuwait_Abu Hulayfah.svg
+Kyrgyzstan,Jalal-Abad,city_maps\Kyrgyzstan_Jalal-Abad.svg,city_maps\Kyrgyzstan_Jalal-Abad.svg
+Laos,Pakxé,city_maps\Laos_Pakxe.svg,city_maps\Laos_Pakxe.svg
+Lebanon,Sidon,city_maps\Lebanon_Sidon.svg,city_maps\Lebanon_Sidon.svg
+Lesotho,Mafeteng,city_maps\Lesotho_Mafeteng.svg,city_maps\Lesotho_Mafeteng.svg
+Liberia,Kakata,city_maps\Liberia_Kakata.svg,city_maps\Liberia_Kakata.svg
+Liechtenstein,Mauren,city_maps\Liechtenstein_Mauren.svg,city_maps\Liechtenstein_Mauren.svg
+Lithuania,Klaipėda,city_maps\Lithuania_Klaipeda.svg,city_maps\Lithuania_Klaipeda.svg
+Luxembourg,Diekirch,city_maps\Luxembourg_Diekirch.svg,city_maps\Luxembourg_Diekirch.svg
+Macedonia,Bitola,city_maps\Macedonia_Bitola.svg,city_maps\Macedonia_Bitola.svg
+Madagascar,Toamasina,city_maps\Madagascar_Toamasina.svg,city_maps\Madagascar_Toamasina.svg
+Malawi,Mzuzu,city_maps\Malawi_Mzuzu.svg,city_maps\Malawi_Mzuzu.svg
+Malaysia,Ipoh,city_maps\Malaysia_Ipoh.svg,city_maps\Malaysia_Ipoh.svg
+Maldives,Naifaru,city_maps\Maldives_Naifaru.svg,city_maps\Maldives_Naifaru.svg
+Mali,Ségou,city_maps\Mali_Segou.svg,city_maps\Mali_Segou.svg
+Malta,Sliema,city_maps\Malta_Sliema.svg,city_maps\Malta_Sliema.svg
+Mauritania,Nouadhibou,city_maps\Mauritania_Nouadhibou.svg,city_maps\Mauritania_Nouadhibou.svg
+Mauritius,Quartier Militaire,city_maps\Mauritius_Quartier Militaire.svg,city_maps\Mauritius_Quartier Militaire.svg
+Mexico,Monterrey,city_maps\Mexico_Monterrey.svg,city_maps\Mexico_Monterrey.svg
+Moldova,Tiraspol,city_maps\Moldova_Tiraspol.svg,city_maps\Moldova_Tiraspol.svg
+Mongolia,Erdenet,city_maps\Mongolia_Erdenet.svg,city_maps\Mongolia_Erdenet.svg
+Montenegro,Ulcinj,city_maps\Montenegro_Ulcinj.svg,city_maps\Montenegro_Ulcinj.svg
+Morocco,Fès,city_maps\Morocco_Fes.svg,city_maps\Morocco_Fes.svg
+Mozambique,Nampula,city_maps\Mozambique_Nampula.svg,city_maps\Mozambique_Nampula.svg
+Myanmar,Nay Pyi Taw,city_maps\Myanmar_Nay Pyi Taw.svg,city_maps\Myanmar_Nay Pyi Taw.svg
+Namibia,Swakopmund,city_maps\Namibia_Swakopmund.svg,city_maps\Namibia_Swakopmund.svg
+Nepal,Jitpur,city_maps\Nepal_Jitpur.svg,city_maps\Nepal_Jitpur.svg
+Netherlands,Utrecht,city_maps\Netherlands_Utrecht.svg,city_maps\Netherlands_Utrecht.svg
+New Caledonia,Wé,city_maps\New Caledonia_We.svg,city_maps\New Caledonia_We.svg
+New Zealand,Christchurch,city_maps\New Zealand_Christchurch.svg,city_maps\New Zealand_Christchurch.svg
+Nicaragua,León,city_maps\Nicaragua_Leon.svg,city_maps\Nicaragua_Leon.svg
+Niger,Maradi,city_maps\Niger_Maradi.svg,city_maps\Niger_Maradi.svg
+Nigeria,Ibadan,city_maps\Nigeria_Ibadan.svg,city_maps\Nigeria_Ibadan.svg
+Norway,Trondheim,city_maps\Norway_Trondheim.svg,city_maps\Norway_Trondheim.svg
+Oman,Maţraḩ,city_maps\Oman_Matrah.svg,city_maps\Oman_Matrah.svg
+Pakistan,Faisalabad,city_maps\Pakistan_Faisalabad.svg,city_maps\Pakistan_Faisalabad.svg
+Palau,Melekeok,city_maps\Palau_Melekeok.svg,city_maps\Palau_Melekeok.svg
+Panama,Colón,city_maps\Panama_Colon.svg,city_maps\Panama_Colon.svg
+Papua New Guinea,Madang,city_maps\Papua New Guinea_Madang.svg,city_maps\Papua New Guinea_Madang.svg
+Paraguay,San Lorenzo,city_maps\Paraguay_San Lorenzo.svg,city_maps\Paraguay_San Lorenzo.svg
+Peru,Arequipa,city_maps\Peru_Arequipa.svg,city_maps\Peru_Arequipa.svg
+Philippines,Davao,city_maps\Philippines_Davao.svg,city_maps\Philippines_Davao.svg
+Poland,Łódź,city_maps\Poland_Lodz.svg,city_maps\Poland_Lodz.svg
+Portugal,Vila Nova de Gaia,city_maps\Portugal_Vila Nova de Gaia.svg,city_maps\Portugal_Vila Nova de Gaia.svg
+Puerto Rico,Carolina,city_maps\Puerto Rico_Carolina.svg,city_maps\Puerto Rico_Carolina.svg
+Qatar,Al Wakrah,city_maps\Qatar_Al Wakrah.svg,city_maps\Qatar_Al Wakrah.svg
+Romania,Cluj-Napoca,city_maps\Romania_Cluj-Napoca.svg,city_maps\Romania_Cluj-Napoca.svg
+Russia,Novosibirsk,city_maps\Russia_Novosibirsk.svg,city_maps\Russia_Novosibirsk.svg
+Rwanda,Gisenyi,city_maps\Rwanda_Gisenyi.svg,city_maps\Rwanda_Gisenyi.svg
+Samoa,Leulumoega,city_maps\Samoa_Leulumoega.svg,city_maps\Samoa_Leulumoega.svg
+San Marino,Borgo Maggiore,city_maps\San Marino_Borgo Maggiore.svg,city_maps\San Marino_Borgo Maggiore.svg
+Saudi Arabia,Mecca,city_maps\Saudi Arabia_Mecca.svg,city_maps\Saudi Arabia_Mecca.svg
+Senegal,Thiès,city_maps\Senegal_Thies.svg,city_maps\Senegal_Thies.svg
+Serbia,Niš,city_maps\Serbia_Nis.svg,city_maps\Serbia_Nis.svg
+Sierra Leone,Bo,city_maps\Sierra Leone_Bo.svg,city_maps\Sierra Leone_Bo.svg
+Slovakia,Petržalka,city_maps\Slovakia_Petrzalka.svg,city_maps\Slovakia_Petrzalka.svg
+Slovenia,Kranj,city_maps\Slovenia_Kranj.svg,city_maps\Slovenia_Kranj.svg
+Solomon Islands,Auki,city_maps\Solomon Islands_Auki.svg,city_maps\Solomon Islands_Auki.svg
+Somalia,Kismaayo,city_maps\Somalia_Kismaayo.svg,city_maps\Somalia_Kismaayo.svg
+South Africa,Pretoria,city_maps\South Africa_Pretoria.svg,city_maps\South Africa_Pretoria.svg
+South Sudan,Yei,city_maps\South Sudan_Yei.svg,city_maps\South Sudan_Yei.svg
+Spain,Sevilla,city_maps\Spain_Sevilla.svg,city_maps\Spain_Sevilla.svg
+Sri Lanka,Moratuwa,city_maps\Sri Lanka_Moratuwa.svg,city_maps\Sri Lanka_Moratuwa.svg
+Sudan,Khartoum North,city_maps\Sudan_Khartoum North.svg,city_maps\Sudan_Khartoum North.svg
+Suriname,Brokopondo,city_maps\Suriname_Brokopondo.svg,city_maps\Suriname_Brokopondo.svg
+Swaziland,Manzini,city_maps\Swaziland_Manzini.svg,city_maps\Swaziland_Manzini.svg
+Sweden,Malmö,city_maps\Sweden_Malmo.svg,city_maps\Sweden_Malmo.svg
+Switzerland,Geneva,city_maps\Switzerland_Geneva.svg,city_maps\Switzerland_Geneva.svg
+Syria,Damascus,city_maps\Syria_Damascus.svg,city_maps\Syria_Damascus.svg
+Taiwan,Taipei,city_maps\Taiwan_Taipei.svg,city_maps\Taiwan_Taipei.svg
+Tajikistan,Bokhtar,city_maps\Tajikistan_Bokhtar.svg,city_maps\Tajikistan_Bokhtar.svg
+Tanzania,Arusha,city_maps\Tanzania_Arusha.svg,city_maps\Tanzania_Arusha.svg
+Thailand,Pak Kret,city_maps\Thailand_Pak Kret.svg,city_maps\Thailand_Pak Kret.svg
+Timor-Leste,Ainaro,city_maps\Timor-Leste_Ainaro.svg,city_maps\Timor-Leste_Ainaro.svg
+Togo,Kpalimé,city_maps\Togo_Kpalime.svg,city_maps\Togo_Kpalime.svg
+Trinidad And Tobago,San Fernando,city_maps\Trinidad And Tobago_San Fernando.svg,city_maps\Trinidad And Tobago_San Fernando.svg
+Tunisia,Sousse,city_maps\Tunisia_Sousse.svg,city_maps\Tunisia_Sousse.svg
+Turkey,İzmir,city_maps\Turkey_Izmir.svg,city_maps\Turkey_Izmir.svg
+Turkmenistan,Daşoguz,city_maps\Turkmenistan_Dasoguz.svg,city_maps\Turkmenistan_Dasoguz.svg
+Uganda,Arua,city_maps\Uganda_Arua.svg,city_maps\Uganda_Arua.svg
+Ukraine,Odesa,city_maps\Ukraine_Odesa.svg,city_maps\Ukraine_Odesa.svg
+United Arab Emirates,Abu Dhabi,city_maps\United Arab Emirates_Abu Dhabi.svg,city_maps\United Arab Emirates_Abu Dhabi.svg
+United Kingdom,Manchester,city_maps\United Kingdom_Manchester.svg,city_maps\United Kingdom_Manchester.svg
+United States,Chicago,city_maps\United States_Chicago.svg,city_maps\United States_Chicago.svg
+Uzbekistan,Andijon,city_maps\Uzbekistan_Andijon.svg,city_maps\Uzbekistan_Andijon.svg
+Vanuatu,Lakatoro,city_maps\Vanuatu_Lakatoro.svg,city_maps\Vanuatu_Lakatoro.svg
+Venezuela,Valencia,city_maps\Venezuela_Valencia.svg,city_maps\Venezuela_Valencia.svg
+Vietnam,Haiphong,city_maps\Vietnam_Haiphong.svg,city_maps\Vietnam_Haiphong.svg
+Yemen,Al Ḩudaydah,city_maps\Yemen_Al Hudaydah.svg,city_maps\Yemen_Al Hudaydah.svg
+Zambia,Kitwe,city_maps\Zambia_Kitwe.svg,city_maps\Zambia_Kitwe.svg
+Zimbabwe,Chitungwiza,city_maps\Zimbabwe_Chitungwiza.svg,city_maps\Zimbabwe_Chitungwiza.svg
+Albania,Kamëz,city_maps\Albania_Kamez.svg,city_maps\Albania_Kamez.svg
+Algeria,Blida,city_maps\Algeria_Blida.svg,city_maps\Algeria_Blida.svg
+Andorra,La Massana,city_maps\Andorra_La Massana.svg,city_maps\Andorra_La Massana.svg
+Angola,Cabinda,city_maps\Angola_Cabinda.svg,city_maps\Angola_Cabinda.svg
+Armenia,Hrazdan,city_maps\Armenia_Hrazdan.svg,city_maps\Armenia_Hrazdan.svg
+Australia,Perth,city_maps\Australia_Perth.svg,city_maps\Australia_Perth.svg
+Austria,Salzburg,city_maps\Austria_Salzburg.svg,city_maps\Austria_Salzburg.svg
+Azerbaijan,Mingəçevir,city_maps\Azerbaijan_Mingacevir.svg,city_maps\Azerbaijan_Mingacevir.svg
+Bangladesh,Sylhet,city_maps\Bangladesh_Sylhet.svg,city_maps\Bangladesh_Sylhet.svg
+Belarus,Mahilyow,city_maps\Belarus_Mahilyow.svg,city_maps\Belarus_Mahilyow.svg
+Belgium,Charleroi,city_maps\Belgium_Charleroi.svg,city_maps\Belgium_Charleroi.svg
+Belize,San Ignacio,city_maps\Belize_San Ignacio.svg,city_maps\Belize_San Ignacio.svg
+Benin,Parakou,city_maps\Benin_Parakou.svg,city_maps\Benin_Parakou.svg
+Bhutan,Punakha,city_maps\Bhutan_Punakha.svg,city_maps\Bhutan_Punakha.svg
+Bolivia,Cochabamba,city_maps\Bolivia_Cochabamba.svg,city_maps\Bolivia_Cochabamba.svg
+Botswana,Maun,city_maps\Botswana_Maun.svg,city_maps\Botswana_Maun.svg
+Brazil,Brasília,city_maps\Brazil_Brasilia.svg,city_maps\Brazil_Brasilia.svg
+Brunei,Tutong,city_maps\Brunei_Tutong.svg,city_maps\Brunei_Tutong.svg
+Bulgaria,Burgas,city_maps\Bulgaria_Burgas.svg,city_maps\Bulgaria_Burgas.svg
+Burkina Faso,Ouahigouya,city_maps\Burkina Faso_Ouahigouya.svg,city_maps\Burkina Faso_Ouahigouya.svg
+Burundi,Kayanza,city_maps\Burundi_Kayanza.svg,city_maps\Burundi_Kayanza.svg
+Cabo Verde,Ribeira Grande,city_maps\Cabo Verde_Ribeira Grande.svg,city_maps\Cabo Verde_Ribeira Grande.svg
+Cambodia,Kampong Cham,city_maps\Cambodia_Kampong Cham.svg,city_maps\Cambodia_Kampong Cham.svg
+Cameroon,Bafoussam,city_maps\Cameroon_Bafoussam.svg,city_maps\Cameroon_Bafoussam.svg
+Canada,Calgary,city_maps\Canada_Calgary.svg,city_maps\Canada_Calgary.svg
+Chad,Abéché,city_maps\Chad_Abeche.svg,city_maps\Chad_Abeche.svg
+Chile,Maipú,city_maps\Chile_Maipu.svg,city_maps\Chile_Maipu.svg
+China,Shenzhen,city_maps\China_Shenzhen.svg,city_maps\China_Shenzhen.svg
+Colombia,Barranquilla,city_maps\Colombia_Barranquilla.svg,city_maps\Colombia_Barranquilla.svg
+Comoros,Mkazi,city_maps\Comoros_Mkazi.svg,city_maps\Comoros_Mkazi.svg
+Congo (Brazzaville),Ouésso,city_maps\Congo (Brazzaville)_Ouesso.svg,city_maps\Congo (Brazzaville)_Ouesso.svg
+Congo (Kinshasa),Mbuji-Mayi,city_maps\Congo (Kinshasa)_Mbuji-Mayi.svg,city_maps\Congo (Kinshasa)_Mbuji-Mayi.svg
+Costa Rica,Liberia,city_maps\Costa Rica_Liberia.svg,city_maps\Costa Rica_Liberia.svg
+Croatia,Osijek,city_maps\Croatia_Osijek.svg,city_maps\Croatia_Osijek.svg
+Cuba,Camagüey,city_maps\Cuba_Camaguey.svg,city_maps\Cuba_Camaguey.svg
+Cyprus,Famagusta,city_maps\Cyprus_Famagusta.svg,city_maps\Cyprus_Famagusta.svg
+Czechia,Plzeň,city_maps\Czechia_Plzen.svg,city_maps\Czechia_Plzen.svg
+Côte D’Ivoire,Korhogo,city_maps\Côte D’Ivoire_Korhogo.svg,city_maps\Côte D’Ivoire_Korhogo.svg
+Denmark,Aalborg,city_maps\Denmark_Aalborg.svg,city_maps\Denmark_Aalborg.svg
+Djibouti,Obock,city_maps\Djibouti_Obock.svg,city_maps\Djibouti_Obock.svg
+Dominican Republic,San Cristóbal,city_maps\Dominican Republic_San Cristobal.svg,city_maps\Dominican Republic_San Cristobal.svg
+El Salvador,Soyapango,city_maps\El Salvador_Soyapango.svg,city_maps\El Salvador_Soyapango.svg
+Equatorial Guinea,Evinayong,city_maps\Equatorial Guinea_Evinayong.svg,city_maps\Equatorial Guinea_Evinayong.svg
+Eritrea,Massawa,city_maps\Eritrea_Massawa.svg,city_maps\Eritrea_Massawa.svg
+Estonia,Viljandi,city_maps\Estonia_Viljandi.svg,city_maps\Estonia_Viljandi.svg
+Ethiopia,Mekele,city_maps\Ethiopia_Mekele.svg,city_maps\Ethiopia_Mekele.svg
+Faroe Islands,Skopun,city_maps\Faroe Islands_Skopun.svg,city_maps\Faroe Islands_Skopun.svg
+Fiji,Nadi,city_maps\Fiji_Nadi.svg,city_maps\Fiji_Nadi.svg
+Finland,Vantaa,city_maps\Finland_Vantaa.svg,city_maps\Finland_Vantaa.svg
+France,Marseille,city_maps\France_Marseille.svg,city_maps\France_Marseille.svg
+French Guiana,Sinnamary,city_maps\French Guiana_Sinnamary.svg,city_maps\French Guiana_Sinnamary.svg
+Gabon,Franceville,city_maps\Gabon_Franceville.svg,city_maps\Gabon_Franceville.svg
+"Gambia, The",Basse Santa Su,"city_maps\Gambia, The_Basse Santa Su.svg","city_maps\Gambia, The_Basse Santa Su.svg"
+Georgia,Rustavi,city_maps\Georgia_Rustavi.svg,city_maps\Georgia_Rustavi.svg
+Germany,Cologne,city_maps\Germany_Cologne.svg,city_maps\Germany_Cologne.svg
+Ghana,Sekondi,city_maps\Ghana_Sekondi.svg,city_maps\Ghana_Sekondi.svg
+Greece,Pátra,city_maps\Greece_Patra.svg,city_maps\Greece_Patra.svg
+Greenland,Aasiaat,city_maps\Greenland_Aasiaat.svg,city_maps\Greenland_Aasiaat.svg
+Guatemala,Coatepeque,city_maps\Guatemala_Coatepeque.svg,city_maps\Guatemala_Coatepeque.svg
+Guinea,N’Zérékoré,city_maps\Guinea_N'Zerekore.svg,city_maps\Guinea_N'Zerekore.svg
+Guinea-Bissau,Catió,city_maps\Guinea-Bissau_Catio.svg,city_maps\Guinea-Bissau_Catio.svg
+Guyana,Bartica,city_maps\Guyana_Bartica.svg,city_maps\Guyana_Bartica.svg
+Haiti,Gonaïves,city_maps\Haiti_Gonaives.svg,city_maps\Haiti_Gonaives.svg
+Honduras,Choloma,city_maps\Honduras_Choloma.svg,city_maps\Honduras_Choloma.svg
+Hungary,Miskolc,city_maps\Hungary_Miskolc.svg,city_maps\Hungary_Miskolc.svg
+Iceland,Akureyri,city_maps\Iceland_Akureyri.svg,city_maps\Iceland_Akureyri.svg
+India,Bangalore,city_maps\India_Bangalore.svg,city_maps\India_Bangalore.svg
+Indonesia,Bekasi,city_maps\Indonesia_Bekasi.svg,city_maps\Indonesia_Bekasi.svg
+Iran,Karaj,city_maps\Iran_Karaj.svg,city_maps\Iran_Karaj.svg
+Iraq,Kirkuk,city_maps\Iraq_Kirkuk.svg,city_maps\Iraq_Kirkuk.svg
+Ireland,Limerick,city_maps\Ireland_Limerick.svg,city_maps\Ireland_Limerick.svg
+Israel,Rishon LeẔiyyon,city_maps\Israel_Rishon LeZiyyon.svg,city_maps\Israel_Rishon LeZiyyon.svg
+Italy,Turin,city_maps\Italy_Turin.svg,city_maps\Italy_Turin.svg
+Jamaica,Spanish Town,city_maps\Jamaica_Spanish Town.svg,city_maps\Jamaica_Spanish Town.svg
+Japan,Yokohama,city_maps\Japan_Yokohama.svg,city_maps\Japan_Yokohama.svg
+Jordan,Al ‘Aqabah,city_maps\Jordan_Al `Aqabah.svg,city_maps\Jordan_Al `Aqabah.svg
+Kazakhstan,Qaraghandy,city_maps\Kazakhstan_Qaraghandy.svg,city_maps\Kazakhstan_Qaraghandy.svg
+Kenya,Kisumu,city_maps\Kenya_Kisumu.svg,city_maps\Kenya_Kisumu.svg
+"Korea, South",Daegu,"city_maps\Korea, South_Daegu.svg","city_maps\Korea, South_Daegu.svg"
+Kosovo,Pejë,city_maps\Kosovo_Peje.svg,city_maps\Kosovo_Peje.svg
+Kyrgyzstan,Karakol,city_maps\Kyrgyzstan_Karakol.svg,city_maps\Kyrgyzstan_Karakol.svg
+Laos,Thakhèk,city_maps\Laos_Thakhek.svg,city_maps\Laos_Thakhek.svg
+Latvia,Jelgava,city_maps\Latvia_Jelgava.svg,city_maps\Latvia_Jelgava.svg
+Lebanon,Tyre,city_maps\Lebanon_Tyre.svg,city_maps\Lebanon_Tyre.svg
+Lesotho,Leribe,city_maps\Lesotho_Leribe.svg,city_maps\Lesotho_Leribe.svg
+Liberia,Harper,city_maps\Liberia_Harper.svg,city_maps\Liberia_Harper.svg
+Liechtenstein,Eschen,city_maps\Liechtenstein_Eschen.svg,city_maps\Liechtenstein_Eschen.svg
+Lithuania,Šiauliai,city_maps\Lithuania_Siauliai.svg,city_maps\Lithuania_Siauliai.svg
+Luxembourg,Echternach,city_maps\Luxembourg_Echternach.svg,city_maps\Luxembourg_Echternach.svg
+Macedonia,Kumanovo,city_maps\Macedonia_Kumanovo.svg,city_maps\Macedonia_Kumanovo.svg
+Madagascar,Fianarantsoa,city_maps\Madagascar_Fianarantsoa.svg,city_maps\Madagascar_Fianarantsoa.svg
+Malawi,Zomba,city_maps\Malawi_Zomba.svg,city_maps\Malawi_Zomba.svg
+Malaysia,Butterworth,city_maps\Malaysia_Butterworth.svg,city_maps\Malaysia_Butterworth.svg
+Maldives,Mahibadhoo,city_maps\Maldives_Mahibadhoo.svg,city_maps\Maldives_Mahibadhoo.svg
+Mali,Mopti,city_maps\Mali_Mopti.svg,city_maps\Mali_Mopti.svg
+Malta,Mosta,city_maps\Malta_Mosta.svg,city_maps\Malta_Mosta.svg
+Mauritania,Kiffa,city_maps\Mauritania_Kiffa.svg,city_maps\Mauritania_Kiffa.svg
+Mauritius,Centre de Flacq,city_maps\Mauritius_Centre de Flacq.svg,city_maps\Mauritius_Centre de Flacq.svg
+Mexico,Tijuana,city_maps\Mexico_Tijuana.svg,city_maps\Mexico_Tijuana.svg
+Moldova,Bender,city_maps\Moldova_Bender.svg,city_maps\Moldova_Bender.svg
+Mongolia,Darhan,city_maps\Mongolia_Darhan.svg,city_maps\Mongolia_Darhan.svg
+Montenegro,Budva,city_maps\Montenegro_Budva.svg,city_maps\Montenegro_Budva.svg
+Morocco,Rabat,city_maps\Morocco_Rabat.svg,city_maps\Morocco_Rabat.svg
+Mozambique,Beira,city_maps\Mozambique_Beira.svg,city_maps\Mozambique_Beira.svg
+Myanmar,Hpa-An,city_maps\Myanmar_Hpa-An.svg,city_maps\Myanmar_Hpa-An.svg
+Namibia,Otjiwarongo,city_maps\Namibia_Otjiwarongo.svg,city_maps\Namibia_Otjiwarongo.svg
+Netherlands,Rotterdam,city_maps\Netherlands_Rotterdam.svg,city_maps\Netherlands_Rotterdam.svg
+New Zealand,Manukau City,city_maps\New Zealand_Manukau City.svg,city_maps\New Zealand_Manukau City.svg
+Nicaragua,Matagalpa,city_maps\Nicaragua_Matagalpa.svg,city_maps\Nicaragua_Matagalpa.svg
+Niger,Agadez,city_maps\Niger_Agadez.svg,city_maps\Niger_Agadez.svg
+Nigeria,Onitsha,city_maps\Nigeria_Onitsha.svg,city_maps\Nigeria_Onitsha.svg
+Norway,Stavanger,city_maps\Norway_Stavanger.svg,city_maps\Norway_Stavanger.svg
+Pakistan,Rawalpindi,city_maps\Pakistan_Rawalpindi.svg,city_maps\Pakistan_Rawalpindi.svg
+Panama,David,city_maps\Panama_David.svg,city_maps\Panama_David.svg
+Papua New Guinea,Mount Hagen,city_maps\Papua New Guinea_Mount Hagen.svg,city_maps\Papua New Guinea_Mount Hagen.svg
+Paraguay,Encarnación,city_maps\Paraguay_Encarnacion.svg,city_maps\Paraguay_Encarnacion.svg
+Peru,Trujillo,city_maps\Peru_Trujillo.svg,city_maps\Peru_Trujillo.svg
+Philippines,Caloocan City,city_maps\Philippines_Caloocan City.svg,city_maps\Philippines_Caloocan City.svg
+Poland,Wrocław,city_maps\Poland_Wroclaw.svg,city_maps\Poland_Wroclaw.svg
+Portugal,Porto,city_maps\Portugal_Porto.svg,city_maps\Portugal_Porto.svg
+Puerto Rico,Ponce,city_maps\Puerto Rico_Ponce.svg,city_maps\Puerto Rico_Ponce.svg
+Romania,Iaşi,city_maps\Romania_Iasi.svg,city_maps\Romania_Iasi.svg
+Russia,Yekaterinburg,city_maps\Russia_Yekaterinburg.svg,city_maps\Russia_Yekaterinburg.svg
+Rwanda,Ruhengeri,city_maps\Rwanda_Ruhengeri.svg,city_maps\Rwanda_Ruhengeri.svg
+Samoa,Mulifanua,city_maps\Samoa_Mulifanua.svg,city_maps\Samoa_Mulifanua.svg
+San Marino,Domagnano,city_maps\San Marino_Domagnano.svg,city_maps\San Marino_Domagnano.svg
+Saudi Arabia,Medina,city_maps\Saudi Arabia_Medina.svg,city_maps\Saudi Arabia_Medina.svg
+Senegal,Rufisque,city_maps\Senegal_Rufisque.svg,city_maps\Senegal_Rufisque.svg
+Serbia,Zemun,city_maps\Serbia_Zemun.svg,city_maps\Serbia_Zemun.svg
+Sierra Leone,Makeni,city_maps\Sierra Leone_Makeni.svg,city_maps\Sierra Leone_Makeni.svg
+Slovakia,Prešov,city_maps\Slovakia_Presov.svg,city_maps\Slovakia_Presov.svg
+Slovenia,Celje,city_maps\Slovenia_Celje.svg,city_maps\Slovenia_Celje.svg
+Solomon Islands,Kirakira,city_maps\Solomon Islands_Kirakira.svg,city_maps\Solomon Islands_Kirakira.svg
+Somalia,Baidoa,city_maps\Somalia_Baidoa.svg,city_maps\Somalia_Baidoa.svg
+South Africa,Cape Town,city_maps\South Africa_Cape Town.svg,city_maps\South Africa_Cape Town.svg
+South Sudan,Wau,city_maps\South Sudan_Wau.svg,city_maps\South Sudan_Wau.svg
+Spain,Málaga,city_maps\Spain_Malaga.svg,city_maps\Spain_Malaga.svg
+Sri Lanka,Kandy,city_maps\Sri Lanka_Kandy.svg,city_maps\Sri Lanka_Kandy.svg
+Sudan,Kassala,city_maps\Sudan_Kassala.svg,city_maps\Sudan_Kassala.svg
+Suriname,Albina,city_maps\Suriname_Albina.svg,city_maps\Suriname_Albina.svg
+Swaziland,Siteki,city_maps\Swaziland_Siteki.svg,city_maps\Swaziland_Siteki.svg
+Sweden,Uppsala,city_maps\Sweden_Uppsala.svg,city_maps\Sweden_Uppsala.svg
+Switzerland,Basel,city_maps\Switzerland_Basel.svg,city_maps\Switzerland_Basel.svg
+Syria,Homs,city_maps\Syria_Homs.svg,city_maps\Syria_Homs.svg
+Taiwan,Tainan,city_maps\Taiwan_Tainan.svg,city_maps\Taiwan_Tainan.svg
+Tajikistan,Chkalov,city_maps\Tajikistan_Chkalov.svg,city_maps\Tajikistan_Chkalov.svg
+Tanzania,Mwanza,city_maps\Tanzania_Mwanza.svg,city_maps\Tanzania_Mwanza.svg
+Thailand,Hat Yai,city_maps\Thailand_Hat Yai.svg,city_maps\Thailand_Hat Yai.svg
+Timor-Leste,Baucau,city_maps\Timor-Leste_Baucau.svg,city_maps\Timor-Leste_Baucau.svg
+Togo,Atakpamé,city_maps\Togo_Atakpame.svg,city_maps\Togo_Atakpame.svg
+Trinidad And Tobago,Couva,city_maps\Trinidad And Tobago_Couva.svg,city_maps\Trinidad And Tobago_Couva.svg
+Tunisia,Kairouan,city_maps\Tunisia_Kairouan.svg,city_maps\Tunisia_Kairouan.svg
+Turkey,Bursa,city_maps\Turkey_Bursa.svg,city_maps\Turkey_Bursa.svg
+Turkmenistan,Mary,city_maps\Turkmenistan_Mary.svg,city_maps\Turkmenistan_Mary.svg
+Uganda,Tororo,city_maps\Uganda_Tororo.svg,city_maps\Uganda_Tororo.svg
+Ukraine,Dnipro,city_maps\Ukraine_Dnipro.svg,city_maps\Ukraine_Dnipro.svg
+United Arab Emirates,Al ‘Ayn,city_maps\United Arab Emirates_Al `Ayn.svg,city_maps\United Arab Emirates_Al `Ayn.svg
+United Kingdom,Leeds,city_maps\United Kingdom_Leeds.svg,city_maps\United Kingdom_Leeds.svg
+United States,Miami,city_maps\United States_Miami.svg,city_maps\United States_Miami.svg
+Uruguay,Rivera,city_maps\Uruguay_Rivera.svg,city_maps\Uruguay_Rivera.svg
+Uzbekistan,Namangan,city_maps\Uzbekistan_Namangan.svg,city_maps\Uzbekistan_Namangan.svg
+Vanuatu,Isangel,city_maps\Vanuatu_Isangel.svg,city_maps\Vanuatu_Isangel.svg
+Venezuela,Barquisimeto,city_maps\Venezuela_Barquisimeto.svg,city_maps\Venezuela_Barquisimeto.svg
+Vietnam,Cần Thơ,city_maps\Vietnam_Can Tho.svg,city_maps\Vietnam_Can Tho.svg
+Yemen,Aden,city_maps\Yemen_Aden.svg,city_maps\Yemen_Aden.svg
+Zambia,Mazabuka,city_maps\Zambia_Mazabuka.svg,city_maps\Zambia_Mazabuka.svg
+Zimbabwe,Mutare,city_maps\Zimbabwe_Mutare.svg,city_maps\Zimbabwe_Mutare.svg
+Italy,Como,city_maps\Italy_Como.svg,city_maps\Italy_Como.svg
+United Kingdom,Lyminge,city_maps\United Kingdom_Lyminge.svg,city_maps\United Kingdom_Lyminge.svg

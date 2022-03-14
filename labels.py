@@ -3,6 +3,7 @@ https://simplemaps.com/data/world-cities
 
 https://stackoverflow.com/questions/16007743/roughly-approximate-the-width-of-a-string-of-text-in-python/16008023#16008023
 """
+print("let's go")
 #%%
 from itertools import count
 import math
@@ -25,6 +26,7 @@ from shapely.errors import ShapelyDeprecationWarning
 
 warnings.filterwarnings("ignore", category=ShapelyDeprecationWarning)
 
+matplotlib.use('Agg') # https://stackoverflow.com/questions/20051160/renderer-problems-using-matplotlib-from-within-a-script#comment29866596_20051160
 #%%
 cities = pd.read_excel("worldcities.xlsx")
 print(f"loaded city data, {cities.shape[0]} rows")
@@ -68,9 +70,9 @@ def getApproximateArialStringWidth(st: str) -> float:
 #%%
 def this_city_should_be_included(
     x: pd.Series,
-    label_data: list[dict],
+    label_data,
     max_pica_width: float = 10.01,
-    country_exclusion_list: list[str] = ["Korea, North"],
+    country_exclusion_list = ["Korea, North"],
     exclude_these_chars="āĀōŌī",  # add to this list as problems come up. That this exists at all should be very shameful to Adobe!
     verbose: bool = False,
 ) -> bool:
@@ -250,6 +252,7 @@ label_gdf.sample(30)
 world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
 world = world[(world.name != "Antarctica") & (world.name != "Fr. S. Antarctic Lands")]
 
+world = world.dissolve()
 ax = world.plot(color="silver")
 ax.set_axis_off()
 
@@ -297,8 +300,8 @@ use_img_marker = False
 plot_width_mm = 62
 plot_height_mm = 28
 MM2IN = 25.4
-ink_colour = "black"
-paper_colour = "magenta"
+ink_colour = "white"
+paper_colour = "black"
 dot_colour = "#e0f532"  # (224, 245, 50, 1) #BVN lime
 add_text = False
 data_about_labels_made = []
@@ -375,9 +378,7 @@ for i, row in label_gdf.iterrows():
                 plt.savefig(
                     row.map_file, bbox_inches="tight", dpi=1200, transparent=True
                 )
-                img_path = f"C:/Users/bdoherty/OneDrive - BVN/General/labeling/city-labels/{row.map_file}".replace(
-                    "/", "\\"
-                )
+                img_path = f"{row.map_file}".replace("/", "\\") # C:/Users/bdoherty/OneDrive - BVN/General/labeling/city-labels/
                 data_about_labels_made.append(
                     {
                         "country": row.country,
