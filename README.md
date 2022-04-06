@@ -93,7 +93,7 @@ Then the last exclusion criteria is that I don't want cities that are behind the
 
 ![](docs/text_exclusion.svg)
 
-Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have preferred a Pacific centric projection, but I'm too much of a GeoPandas noob to do that. Short city names, and country names give the most possibility of not getting a clash.
+In this example 👆 we're excluding any city that is inside either of the red boxes. So Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have preferred a Pacific centric projection, but I'm too much of a GeoPandas noob to do that. Short city names, and country names give the most possibility of not getting a clash.
 
 In this version, I turned the text off so that I can control it _slightly_ more precisely in InDesign. InDesign was a total pain, and in future I would stay 100% in python.
 ## Features
