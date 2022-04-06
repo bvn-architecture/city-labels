@@ -134,3 +134,4 @@ dmypy.json
 # map svgs
 # city_maps
 crossing_maps
+~$*.xlsx
