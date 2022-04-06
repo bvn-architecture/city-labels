@@ -85,15 +85,15 @@ The name needs to fit on the sticker too. Naively, these names are too long, bas
 |iiiiiiiiiiiiiiiiiiiiiiiiii|26|5.772|
 |MMMMMMMMMMMMMMMMMMMMMMMMMM|26|21.06|
 
-But `i` is a long narrower than `M` in a variable width font. I've heuristically calculated the width of the words using [this function](https://stackoverflow.com/questions/16007743/roughly-approximate-the-width-of-a-string-of-text-in-python/16008023#16008023) (thanks [speedplane](https://stackoverflow.com/users/234270/speedplane)).
+`i` is a lot narrower than `M` in a variable width font. I've heuristically calculated the width of the words using [this function](https://stackoverflow.com/questions/16007743/roughly-approximate-the-width-of-a-string-of-text-in-python/16008023#16008023) (thanks [speedplane](https://stackoverflow.com/users/234270/speedplane)).
 
-There are a couple of other exclusion criteria, a ban-list, a list of banned characters. (InDesign falls over on certain letters: i.e. āĀōŌī anything with a macron 😓 _cries in unicode_)
+There are a couple of other exclusion criteria: a ban-list for countries and a list of banned characters. (InDesign falls over on certain letters: i.e. `āĀōŌī` anything with a macron 😓 _cries in unicode_)
 
 Then the last exclusion criteria is that I don't want cities that are behind the text. This one is a bit more involved because I need to know where the text is before I can tell.
 
 ![](docs/text_exclusion.svg)
 
-Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have prefered a Pacific centric projection, but I'm too much of a GeoPandas noob to do that.
+Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have prefered a Pacific centric projection, but I'm too much of a GeoPandas noob to do that. Short city names, and country names give the most possibility of not getting a clash.
 
 In this version, I turned the text off so that I can control it _slightly_ more precisely in InDesign. InDesign was a total pain, and in future I would stay 100% in python.
 ## Features
