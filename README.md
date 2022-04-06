@@ -24,17 +24,17 @@ And in use, after being composed in InDesign:
 
 ## The context
 
-Since going back into the studio after Covid, BVN has had a pretty relaxed approach to where to sit. It's not exactly hot desking, and it's not exactly, well, any oficially understood way of working. (Yet; maybe it will change soon?) This is a change, and it presents a few opportunities and challenges (not to sound too corporate):
+Since going back into the studio after Covid, BVN has had a pretty relaxed approach to where to sit. It's not exactly hot desking, and it's not exactly, well, any officially understood way of working. (Yet; maybe it will change soon?) This is a change, and it presents a few opportunities and challenges (not to sound too corporate):
 * 🙂 You can sit wherever you like. If you need an hour of quiet, pick up your laptop and sit somewhere quieter.
 * 😢 You can never find anyone, they might be in the studio, or they might be at home. Are you wasting your time looking? You just don't know.
 BVN has movable desks in the Sydney studio.
-* 🙂 If we think of the studio as a place where we do experiments then this is a major oportunity to learn something.
+* 🙂 If we think of the studio as a place where we do experiments then this is a major opportunity to learn something.
 * 😢 We don't have a way of recording the results of any experiments we do, so we're not (yet) able to learn anything beyond some anecdotes.
 * 😢 The Sydney studio has [movable desks](http://www.bvn.com.au/2019/02/11/desks-move-suitable-case-social-contagion/). This means that when an IT support call comes in "my screen is broken" there's no way to know which desk someone is talking about.
 
-Taking all those together, there's a lot we can do (and I'll link to that once we do it), but the first step is identifying what we've got. That means giving each desk and dock an identidying name. 
+Taking all those together, there's a lot we can do (and I'll link to that once we do it), but the first step is identifying what we've got. That means giving each desk and dock an identifying name. 
 
-Names are hard. The old favourite of _a random hex number_ e.g. `18b428` is hard to say, hard to type acurately, and hard to remember. Something like `X Æ A-12` is hard to say _and_ hard to type. What we need is something easy to say, unique, and memorable. Categories of things are pretty good for that, e.g. bond villians, types of octopus, countries. These are great, but they also suffer from being quite short lists, and if you have a lot of things to label, _Blowfelt7_ gets you back to where you started.
+Names are hard. The old favourite of _a random hex number_ e.g. `18b428` is hard to say, hard to type accurately, and hard to remember. Something like `X Æ A-12` is hard to say _and_ hard to type. What we need is something easy to say, unique, and memorable. Categories of things are pretty good for that, e.g. bond villains, types of octopus, countries. These are great, but they also suffer from being quite short lists, and if you have a lot of things to label, _Blowfelt7_ gets you back to where you started.
 
 ![Picture of Donald Pleasence as Ernst Stavro Blofeld from You Only Live Twice.](https://upload.wikimedia.org/wikipedia/en/c/c3/Blofeldpleasance67.jpg)
 
@@ -87,19 +87,19 @@ The name needs to fit on the sticker too. Naively, these names are too long, bas
 
 `i` is a lot narrower than `M` in a variable width font. I've heuristically calculated the width of the words using [this function](https://stackoverflow.com/questions/16007743/roughly-approximate-the-width-of-a-string-of-text-in-python/16008023#16008023) (thanks [speedplane](https://stackoverflow.com/users/234270/speedplane)).
 
-There are a couple of other exclusion criteria: a ban-list for countries and a list of banned characters. (InDesign falls over on certain letters: i.e. `āĀōŌī` anything with a macron 😓 _cries in unicode_)
+There are a couple of other exclusion criteria: a ban-list for countries and a list of banned characters. (InDesign falls over on certain letters: i.e. `āĀōŌī` anything with a macron 😓 _cries in Unicode_)
 
 Then the last exclusion criteria is that I don't want cities that are behind the text. This one is a bit more involved because I need to know where the text is before I can tell.
 
 ![](docs/text_exclusion.svg)
 
-Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have prefered a Pacific centric projection, but I'm too much of a GeoPandas noob to do that. Short city names, and country names give the most possibility of not getting a clash.
+Vancouver is going to be fine, because it's well clear of the text. Sadly for Chile and Argentina, they're going to get a raw deal. I would have preferred a Pacific centric projection, but I'm too much of a GeoPandas noob to do that. Short city names, and country names give the most possibility of not getting a clash.
 
 In this version, I turned the text off so that I can control it _slightly_ more precisely in InDesign. InDesign was a total pain, and in future I would stay 100% in python.
 ## Features
 
 - You can either use a `png` marker or a MatPlotLib marker. 
-- You can chose to add text or not
+- You can choose to add text or not
 - You can exclude places on a few different criteria
     - If a country is on an exclusion list
     - If the text includes certain characters
@@ -111,7 +111,7 @@ You might still need to do a merge in something like InDesign to make sheets rea
 
 ## Installing
 
-This, depending on your env, is either easy or horrible. I'm on windows, so it's horrible. It's OK on my personal machine where I'm in total control, but a disaster on my managed work machine. Installing GeoPandas is dificult on Windows. 
+This, depending on your env, is either easy or horrible. I'm on windows, so it's horrible. It's OK on my personal machine where I'm in total control, but a disaster on my managed work machine. Installing GeoPandas is difficult on Windows. 
 
 If you're on a Mac or Linux, everything will be easy. If you're on windows, I've actually been doing this using [replit](https://replit.com) and it's been great.
 
@@ -122,7 +122,7 @@ label-env\Scripts\activate.bat
 
 ### Windows
 
-If you're on windows, you'll need to do the following to install geopandas:
+If you're on windows, you'll need to do the following to install GeoPandas:
 
 ```
 pip install wheel
